@@ -23,4 +23,5 @@ My_Studies = "//a[@title='My studies']"
 Created_New_To_Old = "(//div[@class='ui selection dropdown'])[2]"
 My_Studies_All_Option_Selectable = "//div[@class='visible menu transition']"
 About_Help_link = "//*[@id='app']/div/div/header/div/div/div[3]/div[1]/div[2]/div[1]"
+Studies_On_My_Studies = "(//span[@class='studyName'])[1]"
 
