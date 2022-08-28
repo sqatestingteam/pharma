@@ -27,4 +27,6 @@ Studies_On_My_Studies = "(//span[@class='studyName'])[1]"
 Click_On_Plus_Button_One = "4016"
 Click_On_Plus_Button_Two = "3990"
 Search_Field = "//input[@placeholder='Find Slides']"
+Search_Option_Dropdown = "(//div[@role='listbox'])[1]"
+Select_Slides = "//div[contains(text(),'Slides')]"
 

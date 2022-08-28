@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.8.10 on win32)" generated="20220829 00:36:23.245" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.8.10 on win32)" generated="20220829 00:50:47.415" rpa="false" schemaversion="3">
 <suite id="s1" name="SlideSearchTest TC 001" source="D:\Freelancing\pharma\Tests\SlideSearch\SlideSearchTest_TC_001.robot">
 <test id="s1-t1" name="Verify Filter option is working" line="8">
 <kw name="open my browser" library="LoginPage">
@@ -7,142 +7,150 @@
 <arg>${SiteUrl}</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220829 00:36:23.714" level="INFO">Opening browser 'chrome' to base url 'https://sandbox.jnjesm.com/'.</msg>
-<status status="PASS" starttime="20220829 00:36:23.712" endtime="20220829 00:39:21.559"/>
+<msg timestamp="20220829 00:50:47.790" level="INFO">Opening browser 'chrome' to base url 'https://sandbox.jnjesm.com/'.</msg>
+<status status="PASS" starttime="20220829 00:50:47.790" endtime="20220829 00:50:59.048"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<msg timestamp="20220829 00:39:21.567" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=104.0.5112.102)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x01126463+2188387]
-	Ordinal0 [0x010BE461+1762401]
-	Ordinal0 [0x00FD3D78+802168]
-	Ordinal0 [0x00FBC680+706176]
-	Ordinal0 [0x0101F169+1110377]
-	Ordinal0 [0x0102C3C2+1164226]
-	Ordinal0 [0x0101C5F6+1099254]
-	Ordinal0 [0x00FF6BE0+945120]
-	Ordinal0 [0x00FF7AD6+948950]
-	GetHandleVerifier [0x013C71F2+2712546]
-	GetHandleVerifier [0x013B886D+2652765]
-	GetHandleVerifier [0x011B002A+520730]
-	GetHandleVerifier [0x011AEE06+516086]
-	Ordinal0 [0x010C468B+1787531]
-	Ordinal0 [0x010C8E88+1805960]
-	Ordinal0 [0x010C8F75+1806197]
-	Ordinal0 [0x010D1DF1+1842673]
-	BaseThreadInitThunk [0x7600FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x770D7A9E+286]
-	RtlGetAppContainerNamedObjectPath [0x770D7A6E+238]
-</msg>
-<msg timestamp="20220829 00:39:21.580" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=104.0.5112.102)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x01126463+2188387]
-	Ordinal0 [0x010BE461+1762401]
-	Ordinal0 [0x00FD3D78+802168]
-	Ordinal0 [0x00FBC680+706176]
-	Ordinal0 [0x0101F169+1110377]
-	Ordinal0 [0x0102C3C2+1164226]
-	Ordinal0 [0x0101C5F6+1099254]
-	Ordinal0 [0x00FF6BE0+945120]
-	Ordinal0 [0x00FF7AD6+948950]
-	GetHandleVerifier [0x013C71F2+2712546]
-	GetHandleVerifier [0x013B886D+2652765]
-	GetHandleVerifier [0x011B002A+520730]
-	GetHandleVerifier [0x011AEE06+516086]
-	Ordinal0 [0x010C468B+1787531]
-	Ordinal0 [0x010C8E88+1805960]
-	Ordinal0 [0x010C8F75+1806197]
-	Ordinal0 [0x010D1DF1+1842673]
-	BaseThreadInitThunk [0x7600FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x770D7A9E+286]
-	RtlGetAppContainerNamedObjectPath [0x770D7A6E+238]
-</msg>
-<status status="FAIL" starttime="20220829 00:39:21.561" endtime="20220829 00:39:21.585"/>
+<status status="PASS" starttime="20220829 00:50:59.048" endtime="20220829 00:50:59.197"/>
 </kw>
-<status status="FAIL" starttime="20220829 00:36:23.711" endtime="20220829 00:39:21.587"/>
+<status status="PASS" starttime="20220829 00:50:47.789" endtime="20220829 00:50:59.197"/>
 </kw>
 <kw name="click signIn" library="LoginPage">
-<status status="NOT RUN" starttime="20220829 00:39:21.603" endtime="20220829 00:39:21.603"/>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>300</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20220829 00:50:59.205" endtime="20220829 00:50:59.209"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Authentication_Method}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220829 00:50:59.210" level="INFO">Clicking element '//select[@name='scheme']'.</msg>
+<status status="PASS" starttime="20220829 00:50:59.210" endtime="20220829 00:51:04.518"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Select_Authentication_Method}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220829 00:51:04.519" level="INFO">Clicking element '//option[contains(text(),'Non-J&amp;J')]'.</msg>
+<status status="PASS" starttime="20220829 00:51:04.519" endtime="20220829 00:51:04.603"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${SET_EMAIL}</arg>
+<arg>${user}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220829 00:51:04.606" level="INFO">Typing text 'ramin@rchsolutions.com' into text field '//input[@name='username']'.</msg>
+<status status="PASS" starttime="20220829 00:51:04.604" endtime="20220829 00:51:04.921"/>
+</kw>
+<kw name="Page Should Contain Textfield" library="SeleniumLibrary">
+<arg>${user}</arg>
+<doc>Verifies text field ``locator`` is found from current page.</doc>
+<msg timestamp="20220829 00:51:04.941" level="INFO">Current page contains text field 'ramin@rchsolutions.com'.</msg>
+<status status="PASS" starttime="20220829 00:51:04.922" endtime="20220829 00:51:04.941"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>${SET_PASS}</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20220829 00:51:04.942" level="INFO">Typing password into text field '//input[@name='password']'.</msg>
+<msg timestamp="20220829 00:51:04.993" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20220829 00:51:05.143" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20220829 00:51:04.941" endtime="20220829 00:51:05.143"/>
+</kw>
+<kw name="Page Should Contain Textfield" library="SeleniumLibrary">
+<arg>${password}</arg>
+<doc>Verifies text field ``locator`` is found from current page.</doc>
+<msg timestamp="20220829 00:51:05.164" level="INFO">Current page contains text field 'Swamibapa2022@'.</msg>
+<status status="PASS" starttime="20220829 00:51:05.143" endtime="20220829 00:51:05.164"/>
+</kw>
+<kw name="Page Should Contain Button" library="SeleniumLibrary">
+<arg>${CLICK_SIGNIN_BTN}</arg>
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<msg timestamp="20220829 00:51:05.207" level="INFO">Current page contains button '//button[@value='login']'.</msg>
+<status status="PASS" starttime="20220829 00:51:05.164" endtime="20220829 00:51:05.207"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>${FORGOT_PASS_HYPERLINK}</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<msg timestamp="20220829 00:51:05.222" level="INFO">Current page contains element '//a[contains(text(),'Forgot password?')]'.</msg>
+<status status="PASS" starttime="20220829 00:51:05.207" endtime="20220829 00:51:05.222"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${CLICK_SIGNIN_BTN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220829 00:51:05.223" level="INFO">Clicking element '//button[@value='login']'.</msg>
+<status status="PASS" starttime="20220829 00:51:05.222" endtime="20220829 00:51:08.411"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220829 00:51:13.414" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220829 00:51:08.412" endtime="20220829 00:51:13.414"/>
+</kw>
+<status status="PASS" starttime="20220829 00:50:59.204" endtime="20220829 00:51:13.414"/>
 </kw>
 <kw name="Verify that Search Result is showing on display" library="SlideSharePage_001">
-<status status="NOT RUN" starttime="20220829 00:39:21.613" endtime="20220829 00:39:21.614"/>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>300</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20220829 00:51:13.416" endtime="20220829 00:51:13.419"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${Close_Button}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220829 00:51:13.420" level="INFO">Clicking button '(//button[contains(text(),'Close')])[1]'.</msg>
+<status status="PASS" starttime="20220829 00:51:13.419" endtime="20220829 00:51:13.522"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>${Search_Field}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20220829 00:51:13.562" level="INFO">Element '//input[@placeholder='Find Slides']' is displayed.</msg>
+<status status="PASS" starttime="20220829 00:51:13.522" endtime="20220829 00:51:13.562"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Search_Option_Dropdown}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220829 00:51:13.563" level="INFO">Clicking element '(//div[@role='listbox'])[1]'.</msg>
+<status status="PASS" starttime="20220829 00:51:13.562" endtime="20220829 00:51:13.628"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Select_Slides}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220829 00:51:13.629" level="INFO">Clicking element '//div[contains(text(),'Slides')]'.</msg>
+<status status="PASS" starttime="20220829 00:51:13.628" endtime="20220829 00:51:13.692"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${Search_Field}</arg>
+<arg>fjfjjjfjfj</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220829 00:51:13.693" level="INFO">Typing text 'fjfjjjfjfj' into text field '//input[@placeholder='Find Slides']'.</msg>
+<status status="PASS" starttime="20220829 00:51:13.692" endtime="20220829 00:51:13.847"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>20</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220829 00:51:33.848" level="INFO">Slept 20 seconds</msg>
+<status status="PASS" starttime="20220829 00:51:13.847" endtime="20220829 00:51:33.848"/>
+</kw>
+<status status="PASS" starttime="20220829 00:51:13.415" endtime="20220829 00:51:33.848"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="NOT RUN" starttime="20220829 00:39:21.638" endtime="20220829 00:39:21.639"/>
+<status status="PASS" starttime="20220829 00:51:33.849" endtime="20220829 00:51:36.138"/>
 </kw>
-<status status="FAIL" starttime="20220829 00:36:23.709" endtime="20220829 00:39:21.641">NoSuchWindowException: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=104.0.5112.102)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x01126463+2188387]
-	Ordinal0 [0x010BE461+1762401]
-	Ordinal0 [0x00FD3D78+802168]
-	Ordinal0 [0x00FBC680+706176]
-	Ordinal0 [0x0101F169+1110377]
-	Ordinal0 [0x0102C3C2+1164226]
-	Ordinal0 [0x0101C5F6+1099254]
-	Ordinal0 [0x00FF6BE0+945120]
-	Ordinal0 [0x00FF7AD6+948950]
-	GetHandleVerifier [0x013C71F2+2712546]
-	GetHandleVerifier [0x013B886D+2652765]
-	GetHandleVerifier [0x011B002A+520730]
-	GetHandleVerifier [0x011AEE06+516086]
-	Ordinal0 [0x010C468B+1787531]
-	Ordinal0 [0x010C8E88+1805960]
-	Ordinal0 [0x010C8F75+1806197]
-	Ordinal0 [0x010D1DF1+1842673]
-	BaseThreadInitThunk [0x7600FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x770D7A9E+286]
-	RtlGetAppContainerNamedObjectPath [0x770D7A6E+238]
-</status>
+<status status="PASS" starttime="20220829 00:50:47.788" endtime="20220829 00:51:36.139"/>
 </test>
-<status status="FAIL" starttime="20220829 00:36:23.249" endtime="20220829 00:39:21.668"/>
+<status status="PASS" starttime="20220829 00:50:47.419" endtime="20220829 00:51:36.142"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" skip="0" id="s1" name="SlideSearchTest TC 001">SlideSearchTest TC 001</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="SlideSearchTest TC 001">SlideSearchTest TC 001</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20220829 00:39:21.567" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=104.0.5112.102)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x01126463+2188387]
-	Ordinal0 [0x010BE461+1762401]
-	Ordinal0 [0x00FD3D78+802168]
-	Ordinal0 [0x00FBC680+706176]
-	Ordinal0 [0x0101F169+1110377]
-	Ordinal0 [0x0102C3C2+1164226]
-	Ordinal0 [0x0101C5F6+1099254]
-	Ordinal0 [0x00FF6BE0+945120]
-	Ordinal0 [0x00FF7AD6+948950]
-	GetHandleVerifier [0x013C71F2+2712546]
-	GetHandleVerifier [0x013B886D+2652765]
-	GetHandleVerifier [0x011B002A+520730]
-	GetHandleVerifier [0x011AEE06+516086]
-	Ordinal0 [0x010C468B+1787531]
-	Ordinal0 [0x010C8E88+1805960]
-	Ordinal0 [0x010C8F75+1806197]
-	Ordinal0 [0x010D1DF1+1842673]
-	BaseThreadInitThunk [0x7600FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x770D7A9E+286]
-	RtlGetAppContainerNamedObjectPath [0x770D7A6E+238]
-</msg>
 </errors>
 </robot>
