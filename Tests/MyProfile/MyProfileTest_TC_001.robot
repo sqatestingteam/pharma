@@ -1,7 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource  ../Pages/LoginPage.robot
-Resource  ../Pages/MyProfilePage_001.robot
+Resource  ../../Pages/LoginPage.robot
+Resource  ../../Pages/MyProfilePage_001.robot
 
 *** Test Cases ***
 Check My Profile Clickable or Not

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.10 on win32)" generated="20220828 21:58:55.210" rpa="false" schemaversion="3">
+<suite id="s1" name="Help TC 001" source="D:\Freelancing\pharma\Tests\Help\Help_TC_001.robot">
+<test id="s1-t1" name="Verify that display will show you all information about the HOLO system" line="8">
+<kw name="open my browser" library="LoginPage">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SiteUrl}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220828 21:58:55.571" level="INFO">Opening browser 'chrome' to base url 'https://sandbox.jnjesm.com/'.</msg>
+<status status="PASS" starttime="20220828 21:58:55.571" endtime="20220828 22:00:01.276"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220828 22:00:01.276" endtime="20220828 22:00:01.810"/>
+</kw>
+<status status="PASS" starttime="20220828 21:58:55.571" endtime="20220828 22:00:01.810"/>
+</kw>
+<kw name="click signIn" library="LoginPage">
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>300</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20220828 22:00:01.811" endtime="20220828 22:00:01.813"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Authentication_Method}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220828 22:00:01.813" level="INFO">Clicking element '//select[@name='scheme']'.</msg>
+<status status="PASS" starttime="20220828 22:00:01.813" endtime="20220828 22:00:06.960"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Select_Authentication_Method}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220828 22:00:06.961" level="INFO">Clicking element '//option[contains(text(),'Non-J&amp;J')]'.</msg>
+<status status="PASS" starttime="20220828 22:00:06.960" endtime="20220828 22:00:07.087"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${SET_EMAIL}</arg>
+<arg>${user}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220828 22:00:07.088" level="INFO">Typing text 'ramin@rchsolutions.com' into text field '//input[@name='username']'.</msg>
+<status status="PASS" starttime="20220828 22:00:07.087" endtime="20220828 22:00:07.326"/>
+</kw>
+<kw name="Page Should Contain Textfield" library="SeleniumLibrary">
+<arg>${user}</arg>
+<doc>Verifies text field ``locator`` is found from current page.</doc>
+<msg timestamp="20220828 22:00:07.344" level="INFO">Current page contains text field 'ramin@rchsolutions.com'.</msg>
+<status status="PASS" starttime="20220828 22:00:07.326" endtime="20220828 22:00:07.344"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>${SET_PASS}</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20220828 22:00:07.344" level="INFO">Typing password into text field '//input[@name='password']'.</msg>
+<msg timestamp="20220828 22:00:07.391" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20220828 22:00:07.520" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20220828 22:00:07.344" endtime="20220828 22:00:07.520"/>
+</kw>
+<kw name="Page Should Contain Textfield" library="SeleniumLibrary">
+<arg>${password}</arg>
+<doc>Verifies text field ``locator`` is found from current page.</doc>
+<msg timestamp="20220828 22:00:07.543" level="INFO">Current page contains text field 'Swamibapa2022@'.</msg>
+<status status="PASS" starttime="20220828 22:00:07.520" endtime="20220828 22:00:07.543"/>
+</kw>
+<kw name="Page Should Contain Button" library="SeleniumLibrary">
+<arg>${CLICK_SIGNIN_BTN}</arg>
+<doc>Verifies button ``locator`` is found from current page.</doc>
+<msg timestamp="20220828 22:00:07.599" level="INFO">Current page contains button '//button[@value='login']'.</msg>
+<status status="PASS" starttime="20220828 22:00:07.544" endtime="20220828 22:00:07.599"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>${FORGOT_PASS_HYPERLINK}</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<msg timestamp="20220828 22:00:07.619" level="INFO">Current page contains element '//a[contains(text(),'Forgot password?')]'.</msg>
+<status status="PASS" starttime="20220828 22:00:07.600" endtime="20220828 22:00:07.619"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${CLICK_SIGNIN_BTN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220828 22:00:07.620" level="INFO">Clicking element '//button[@value='login']'.</msg>
+<status status="PASS" starttime="20220828 22:00:07.620" endtime="20220828 22:00:11.031"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220828 22:00:16.039" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220828 22:00:11.031" endtime="20220828 22:00:16.040"/>
+</kw>
+<status status="PASS" starttime="20220828 22:00:01.811" endtime="20220828 22:00:16.042"/>
+</kw>
+<kw name="display show all information about Halo" library="HelpPage_001">
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>300</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20220828 22:00:16.047" endtime="20220828 22:00:16.055"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${Close_Button}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220828 22:00:16.059" level="INFO">Clicking button '(//button[contains(text(),'Close')])[1]'.</msg>
+<status status="PASS" starttime="20220828 22:00:16.057" endtime="20220828 22:00:16.152"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Help_Icon}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220828 22:00:16.152" level="INFO">Clicking element '(//div[@class='ui dropdown item navDropdown'])[2]'.</msg>
+<msg timestamp="20220828 22:05:16.784" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220828 22:05:16.784" level="FAIL">Element with locator '(//div[@class='ui dropdown item navDropdown'])[2]' not found.</msg>
+<status status="FAIL" starttime="20220828 22:00:16.152" endtime="20220828 22:05:16.784"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${About_Help_link}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220828 22:05:16.784" endtime="20220828 22:05:16.784"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${Close_Button}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220828 22:05:16.784" endtime="20220828 22:05:16.784"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220828 22:05:16.784" endtime="20220828 22:05:16.784"/>
+</kw>
+<status status="FAIL" starttime="20220828 22:00:16.045" endtime="20220828 22:05:16.784"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220828 22:05:16.784" endtime="20220828 22:05:16.784"/>
+</kw>
+<status status="FAIL" starttime="20220828 21:58:55.571" endtime="20220828 22:05:16.784">Element with locator '(//div[@class='ui dropdown item navDropdown'])[2]' not found.</status>
+</test>
+<status status="FAIL" starttime="20220828 21:58:55.227" endtime="20220828 22:05:16.784"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Help TC 001">Help TC 001</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
