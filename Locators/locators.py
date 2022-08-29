@@ -29,4 +29,5 @@ Click_On_Plus_Button_Two = "3990"
 Search_Field = "//input[@placeholder='Find Slides']"
 Search_Option_Dropdown = "(//div[@role='listbox'])[1]"
 Select_Slides = "//div[contains(text(),'Slides')]"
+Select_Advanced_Search = "//a[@href='/s/search']"
 
