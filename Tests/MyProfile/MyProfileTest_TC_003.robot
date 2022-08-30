@@ -1,8 +1,8 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource  ../../Pages/LoginPage.robot
-Resource  ../../Pages/MyProfilePage_001.robot
-Resource  ../../Pages/MyProfilePage_003.robot
+Resource  ../../Pages/Login/LoginPage.robot
+Resource  ../../Pages/MyProfile/MyProfilePage_001.robot
+Resource  ../../Pages/MyProfile/MyProfilePage_003.robot
 
 *** Test Cases ***
 Login

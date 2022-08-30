@@ -1,7 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
-Variables   ../Locators/locators.py
-Resource   ../Locators/variables.robot
+Variables   ../../Locators/locators.py
+Resource   ../../Locators/variables.robot
 
 *** Keywords ***
 

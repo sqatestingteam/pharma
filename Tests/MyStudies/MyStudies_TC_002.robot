@@ -1,7 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource  ../../Pages/LoginPage.robot
-Resource  ../../Pages/MyStudies_002.robot
+Resource  ../../Pages/Login/LoginPage.robot
+Resource  ../../Pages/MyStudies/MyStudies_002.robot
 
 *** Test Cases ***
 

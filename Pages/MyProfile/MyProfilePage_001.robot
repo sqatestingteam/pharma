@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Variables   ../Locators/locators.py
+Variables   ../../Locators/locators.py
 
 *** Keywords ***
 
