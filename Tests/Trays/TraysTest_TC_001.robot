@@ -1,12 +1,12 @@
 *** Settings ***
 Library     SeleniumLibrary
 Resource  ../../Pages/Login/LoginPage.robot
-Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_004.robot
+Resource  ../../Pages/Trays/TraysPage_001.robot
 
 *** Test Cases ***
 
-Verify Filter option is working
+Check Trays module
     open my browser
     click signIn
-    Verify that all slider up/down/left-right working properly
+    Check Trays module
     close browser
