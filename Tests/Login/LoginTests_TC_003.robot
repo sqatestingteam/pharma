@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource  ../../Pages/Login/LoginPage_TC_002.robot
+Resource  ../../Pages/Login/LoginPage_TC_003.robot
 
 *** Test Cases ***
 Login
