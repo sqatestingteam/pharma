@@ -3,7 +3,7 @@ Library     SeleniumLibrary
 Resource  ../../Pages/Login/LoginPage_TC_003.robot
 
 *** Test Cases ***
-Login
+Login with valid username & invalid password
     open my browser
-    Verify login page every elements
+    Login with valid username & invalid password
     close browser

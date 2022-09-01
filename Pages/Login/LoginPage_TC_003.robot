@@ -8,15 +8,20 @@ open my browser
     open browser    ${SiteUrl}   ${Browser}
     maximize browser window
 
-click signIn
+Login with valid username & invalid password
     set selenium implicit wait  300
     click element  ${Authentication_Method}
     click element  ${Select_Authentication_Method}
+    click element  ${SET_PASS}
+    click element  ${Research_Use_Only}
+    page should contain element  ${Username_Redline}
+    element text should be  ${Password_Redline}     password is a required field
+    element text should be  ${Username_Redline}     username is a required field
     input text  ${SET_EMAIL}    ${user}
     page should contain textfield  ${user}
-    input password  ${SET_PASS}     ${password}
-    page should contain textfield  ${password}
-    page should contain button  ${CLICK_SIGNIN_BTN}
-    page should contain element  ${FORGOT_PASS_HYPERLINK}
+    input password  ${SET_PASS}     ${invalid_password}
+    double click element  ${Password_Eye}
+    click element  ${Remember_Me}
     click element  ${CLICK_SIGNIN_BTN}
+
     sleep  5
