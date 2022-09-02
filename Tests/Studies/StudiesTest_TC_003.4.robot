@@ -1,12 +1,12 @@
 *** Settings ***
 Library     SeleniumLibrary
 Resource  ../../Pages/Login/LoginPage.robot
-Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_005.robot
+Resource  ../../Pages/Studies/StudiesPage_TC_003.4.robot
 
 *** Test Cases ***
 
-Verify Filter option is working
+Verify Existing New Study folder is clickable
     open my browser
     click signIn
-    Verify that all slider up/down/left-right working properly
+    Verify Existing New Study folder is clickable
     close browser

@@ -13,5 +13,6 @@ Verify that all slider up/down/left-right working properly
     click element  ${Visible_Jobs}
     page should contain element  ${Visible_Jobs_Table_First_Row}
     click element  ${Time_Arrow_Option}
-
+    page should contain element  ${Slide_left_to_right}
+    page should contain element  ${Slide_up_to_down}
     sleep  3
