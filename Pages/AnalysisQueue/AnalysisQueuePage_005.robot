@@ -17,4 +17,13 @@ Verify that all slider up/down/left-right working properly
     page should contain element  ${Slide_left_to_right}
     page should contain element  ${Slide_up_to_down}
     mouse over  ${Submitted}
+    page should contain element  ${Submitted_Sort_Up_and_Down}
+    mouse over  ${Started}
+    page should contain element  ${Started_Sort_Up_and_Down}
+    mouse over  ${Completed}
+    page should contain element  ${Completed_Sort_Up_and_Down}
+    mouse over  ${Status}
+    page should contain element  ${Status_Sort_Up_and_Down}
+    mouse over  ${Progress}
+    page should contain element  ${Progress_Sort_Up_and_Down}
     sleep  3

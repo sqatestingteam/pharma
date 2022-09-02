@@ -88,3 +88,21 @@ New_Window = "(//div[@class='edgt-position-left'])[1]"
 Slide_left_to_right = "//div[@class='ag-body-horizontal-scroll-viewport']"
 Slide_up_to_down = '//div[@class="ag-body-viewport ag-layout-normal ag-row-animation"]'
 Submitted = '(//div[@class="sc-jnlKLf djbMhk"])[3]'
+Slide = '(//div[@class="sc-jnlKLf djbMhk"])[1]'
+Started = '(//div[@class="sc-jnlKLf djbMhk"])[5]'
+Status = '(//div[@class="sc-jnlKLf djbMhk"])[4]'
+Completed = '(//div[@class="sc-jnlKLf djbMhk"])[6]'
+Progress = '(//div[@class="sc-jnlKLf djbMhk"])[7]'
+Submitted_Sort_Up_and_Down = '(//div[@class="buttons"])[3]'
+Status_Sort_Up_and_Down = '(//div[@class="buttons"])[3]'
+Started_Sort_Up_and_Down = '(//div[@class="buttons"])[5]'
+Progress_Sort_Up_and_Down = '(//div[@class="buttons"])[7]'
+Completed_Sort_Up_and_Down = '(//div[@class="buttons"])[6]'
+Slide_Sort_Up_and_Down = '(//div[@class="buttons"])[1]'
+Contains = "(//div[contains(text(),'Contains')])[1]"
+Less_Than = "(//div[contains(text(),'Less than')])[1]"
+Select_Equals = "//div[normalize-space()='Equals']"
+Greater_than = "//div[normalize-space()='Greater than']"
+Filter = '(//div[@class="ag-wrapper ag-input-wrapper ag-text-field-input-wrapper"])[1]'
+Apply_Filter = "//button[normalize-space()='Apply Filter']"
+Reset_Filter = "//button[normalize-space()='Reset Filter']"

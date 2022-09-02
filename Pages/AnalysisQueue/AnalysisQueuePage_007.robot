@@ -4,15 +4,18 @@ Variables   ../../Locators/locators.py
 
 *** Keywords ***
 
-Verify that the Serch option radio button is working properly
+Verify that the Slide filter dropdown option working properly
     set selenium implicit wait  300
-    click button  ${Close_Button}
-    element should be visible  ${Search_Field}
-    click element  ${Select_Slides}
-    click element  ${Select_Advanced_Search}
-    click element  ${Dismiss_Button}
-    element should be visible  ${Search_For_The_Slides}
-    page should contain element  ${Studies_Radio_Button}
-    click element  ${Studies_Radio_Button}
+    click element  ${Close_Button}
+    page should contain element  ${Analysis_Queue_Button}
+    click element  ${Analysis_Queue_Button}
+    page should contain element  ${Visible_Jobs}
+    click element  ${Visible_Jobs}
+    page should contain element  ${Visible_Jobs_Table_First_Row}
+    page should contain element  ${Time_Arrow_Option}
+    click element  ${Time_Arrow_Option}
+    click element  ${Slide}
+    click element  ${Slide_Sort_Up_and_Down}
+    click element  ${Contains}
+    click element  ${Select_Equals}
     sleep  3
-

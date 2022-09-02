@@ -1,12 +1,12 @@
 *** Settings ***
 Library     SeleniumLibrary
 Resource  ../../Pages/Login/LoginPage.robot
-Resource  ../../Pages/SlideSearch/SlideSearchPage_004.robot
+Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_007.robot
 
 *** Test Cases ***
 
-Verify Filter option is working
+Verify that the Slide filter dropdown option working properly
     open my browser
     click signIn
-    Verify that the Serch option radio button is working properly
+    Verify that the Slide filter dropdown option working properly
     close browser
