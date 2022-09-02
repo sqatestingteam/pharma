@@ -94,7 +94,7 @@ Status = '(//div[@class="sc-jnlKLf djbMhk"])[4]'
 Completed = '(//div[@class="sc-jnlKLf djbMhk"])[6]'
 Progress = '(//div[@class="sc-jnlKLf djbMhk"])[7]'
 Submitted_Sort_Up_and_Down = '(//div[@class="buttons"])[3]'
-Status_Sort_Up_and_Down = '(//div[@class="buttons"])[3]'
+Status_Sort_Up_and_Down = '(//div[@class="buttons"])[4]'
 Started_Sort_Up_and_Down = '(//div[@class="buttons"])[5]'
 Progress_Sort_Up_and_Down = '(//div[@class="buttons"])[7]'
 Completed_Sort_Up_and_Down = '(//div[@class="buttons"])[6]'
@@ -106,3 +106,5 @@ Greater_than = "//div[normalize-space()='Greater than']"
 Filter = '(//div[@class="ag-wrapper ag-input-wrapper ag-text-field-input-wrapper"])[1]'
 Apply_Filter = "//button[normalize-space()='Apply Filter']"
 Reset_Filter = "//button[normalize-space()='Reset Filter']"
+Select_Date = '(//input[@class="ag-input-field-input ag-text-field-input"])[1]'
+Select_Cancel_Radio_Button = '//div[@data-test-id="set-filter-option-Cancelled"]'
