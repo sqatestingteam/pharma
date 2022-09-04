@@ -1,0 +1,20 @@
+*** Settings ***
+Library     SeleniumLibrary
+Variables   ../../Locators/locators.py
+
+*** Keywords ***
+
+Verify that the Image Filer option search and Apply Filter button field is working properly
+    set selenium implicit wait  300
+    click element  ${Close_Button}
+    page should contain element  ${Analysis_Queue_Button}
+    click element  ${Analysis_Queue_Button}
+    page should contain element  ${All_Jobs}
+    click element  ${All_Jobs}
+    page should contain element  ${Time_Arrow_Option}
+    click element  ${Time_Arrow_Option}
+    mouse over  ${Image}
+    click element  ${Image_Sort_Up_and_Down}
+    input text  ${Analysis_Queue_Search_Field}  This is Search
+    click element  ${Apply_Filter}
+    sleep  3

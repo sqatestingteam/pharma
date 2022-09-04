@@ -90,15 +90,18 @@ Slide_up_to_down = '//div[@class="ag-body-viewport ag-layout-normal ag-row-anima
 Submitted = '(//div[@class="sc-jnlKLf djbMhk"])[3]'
 Slide = '(//div[@class="sc-jnlKLf djbMhk"])[1]'
 Started = '(//div[@class="sc-jnlKLf djbMhk"])[5]'
+Algorithm = '(//div[@class="sc-jnlKLf djbMhk"])[2]'
 Status = '(//div[@class="sc-jnlKLf djbMhk"])[4]'
 Completed = '(//div[@class="sc-jnlKLf djbMhk"])[6]'
 Progress = '(//div[@class="sc-jnlKLf djbMhk"])[7]'
 Submitted_Sort_Up_and_Down = '(//div[@class="buttons"])[3]'
 Status_Sort_Up_and_Down = '(//div[@class="buttons"])[4]'
 Started_Sort_Up_and_Down = '(//div[@class="buttons"])[5]'
+Algorithm_Sort_Up_and_Down = '(//div[@class="buttons"])[2]'
 Progress_Sort_Up_and_Down = '(//div[@class="buttons"])[7]'
 Completed_Sort_Up_and_Down = '(//div[@class="buttons"])[6]'
 Slide_Sort_Up_and_Down = '(//div[@class="buttons"])[1]'
+Image_Sort_Up_and_Down = '(//div[@class="buttons"])[1]'
 Contains = "(//div[contains(text(),'Contains')])[1]"
 Less_Than = "(//div[contains(text(),'Less than')])[1]"
 Select_Equals = "//div[normalize-space()='Equals']"
@@ -108,3 +111,7 @@ Apply_Filter = "//button[normalize-space()='Apply Filter']"
 Reset_Filter = "//button[normalize-space()='Reset Filter']"
 Select_Date = '(//input[@class="ag-input-field-input ag-text-field-input"])[1]'
 Select_Cancel_Radio_Button = '//div[@data-test-id="set-filter-option-Cancelled"]'
+Analysis_Queue_Search_Field = '(//input[@placeholder="Filter..."])[1]'
+Check_Box = '(//div[@class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"])[6]'
+Analysis_Queue_Delete_Button = "//button[@class='ui teal mini button']"
+Image = '(//div[@class="sc-jnlKLf djbMhk"])[1]'
