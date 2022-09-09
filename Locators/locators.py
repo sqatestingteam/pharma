@@ -25,10 +25,12 @@ New_Trays = "(//span[contains(text(),'New tray')])[1]"
 Create_New_Tray = "(//div[contains(text(),'Create new tray')])[1]"
 Enter_Tray_Name = "//input[@value='Untitled tray']"
 Close_Button = "(//button[contains(text(),'Close')])[1]"
+Update_Button = "(//button[contains(text(),'Update')])[1]"
 Cancel_Button = "(//button[contains(text(),'Cancel')])[1]"
 Revoke_Button = "(//button[contains(text(),'Revoke')])[1]"
 Rename_Button = "(//button[contains(text(),'Rename')])[1]"
 Create_Button = "(//button[contains(text(),'Create')])[1]"
+Clear_Button = "(//button[contains(text(),'Clear')])[1]"
 Tray_Created = "(//div[@class='ui card'])[1]"
 Ellipsis_Button = "(//i[@class='ellipsis vertical icon actionsPopupTrigger'])[1]"
 Start_Conference = "//div[normalize-space()='Start Conference']"
@@ -128,6 +130,7 @@ Inter_Date_In_Analysis_Queue = '(//input[@placeholder="yyyy-mm-dd"])[1]'
 Studies_Folder_Icon = '//i[@class="folder icon"]'
 Studies_Text = "(//span[contains(text(),'Studies')])[1]"
 Existing_Study_Folder = '(//a[@class="ui card"])[1]'
+Existing_Study_Folder_Second = '(//a[@class="ui card"])[2]'
 Studies_Hyperlink = '(//a[@href="/s/studies"])[1]'
 Study_Information_Module = '//div[@title="Study Information"]'
 Description_Title = '//label[@for="description"]'
@@ -150,3 +153,13 @@ Click_Send_An_Email_Check_Box = '(//input[@id="notificationCheckbox"])[1]'
 Notification_Message = "//div[@class='notification-message']"
 Study_Metadata = '//div[@title="Study Metadata"]'
 Study_Metadata_Title = "(//div[contains(text(),'Study Metadata')])[1]"
+Study_Slide_Grid = '//div[@title="Study Slide Grid"]'
+Study_View_Dropdown = "(//span[contains(text(),'Study View')])[1]"
+Select_Checkbox_In_Study_Slide_Grid = "//input[@id='ag-input-id-185']"
+Open_Tab_Right_Side_Down_Icon = '(//button[@class="sc-kfGgVZ cNEfCt"])[2]'
+Open_In_Desktop = "(//div[contains(text(),'Open in Desktop')])[1]"
+Open_Tab = "//span[normalize-space()='Open']"
+Basic_Information_Title = "(//span[contains(text(),'Basic Information')])[1]"
+Basic_Information_Edit_Icon = '(//div[@title="Edit the field"])[1]'
+Barcode_Input_Box = '//input[@name="barcode"]'
+Time_Created_Input_Box = '//input[@name="createdTime"]'
