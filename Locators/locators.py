@@ -118,3 +118,5 @@ Check_Box = '(//div[@class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrappe
 Analysis_Queue_Delete_Button = "//button[@class='ui teal mini button']"
 Image = '(//div[@class="sc-jnlKLf djbMhk"])[1]'
 Inter_Date_In_Analysis_Queue = '(//input[@placeholder="yyyy-mm-dd"])[1]'
+Studies_Folder_Icon = '//i[@class="folder icon"]'
+Studies_Text = '//span[@class="navbarText"]'
