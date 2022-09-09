@@ -26,6 +26,7 @@ Create_New_Tray = "(//div[contains(text(),'Create new tray')])[1]"
 Enter_Tray_Name = "//input[@value='Untitled tray']"
 Close_Button = "(//button[contains(text(),'Close')])[1]"
 Cancel_Button = "(//button[contains(text(),'Cancel')])[1]"
+Revoke_Button = "(//button[contains(text(),'Revoke')])[1]"
 Rename_Button = "(//button[contains(text(),'Rename')])[1]"
 Create_Button = "(//button[contains(text(),'Create')])[1]"
 Tray_Created = "(//div[@class='ui card'])[1]"
@@ -76,6 +77,8 @@ Configure_Option = "//span[contains(text(),'Configure')]"
 Slide_Style = "(//div[@class='ui card activeCard slideCard'])[2]"
 Slide_Attributes = "//div[@data-test-id='attribute-checkbox-0']"
 Save_Button = "//button[contains(text(),'Save')]"
+Share_Button = "//button[contains(text(),'Share')]"
+Share_Button_Invite_User = "(//button[contains(text(),'Share')])[2]"
 Save_Or_Load_Search = "//span[contains(text(),'Save or load a search')]"
 Save_Current_Search = "//button[contains(text(),'Save current search')]"
 Search_Name_Field = "//input[@placeholder='Name your search']"
@@ -132,3 +135,16 @@ Viewer_Role = '(//span[@role="VIEWER"])[1]'
 Owner_Role = '(//span[@role="OWNER"])[1]'
 Collaborators_Cross_Icon = '(//div[@title="Revoke study access"])[1]'
 Delete_Collaborator_Access_PopUp = "(//div[contains(text(),'Delete collaborator access')])[1]"
+Invite_User_Form = "(//div[contains(text(),'Invite Users')])[1]"
+Role_DropDown = '(//i[@class="dropdown icon"])[5]'
+Annotator_Role_Invite_User = "//div[@class='visible menu transition']//span[@class='text'][normalize-space()='Annotator']"
+Role_Access_Cross_Icon = 'U3R1ZHlSb2xlOjI='
+Invite_Collaborators_Title = '//label[@for="multipleEmailInput"]'
+Email_Input_Box = 'userInput'
+Add_User_Group = 'groupInput'
+Role_DropDown_In_Invite_Collaborates = '(//i[@class="dropdown icon"])[12]'
+Message_Input_Box = 'messageTextArea'
+Click_Send_An_Email_Check_Box = '(//input[@id="notificationCheckbox"])[1]'
+Notification_Message = "//div[@class='notification-message']"
+Study_Metadata = '//div[@title="Study Metadata"]'
+Study_Metadata_Title = "(//div[contains(text(),'Study Metadata')])[1]"

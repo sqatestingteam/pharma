@@ -1,12 +1,12 @@
 *** Settings ***
 Library     SeleniumLibrary
 Resource  ../../Pages/Login/LoginPage.robot
-Resource  ../../Pages/Studies/StudiesPage_TC_003.12.robot
+Resource  ../../Pages/Studies/StudiesPage_TC_004.1.robot
 
 *** Test Cases ***
 
-Check Invite collaborators works correctly
+Check Study metadata module
     open my browser
     click signIn
-    Check Invite collaborators works correctly
+    Check Study metadata module
     close browser
