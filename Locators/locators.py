@@ -14,6 +14,7 @@ Username_Redline = "(//span[@class='loginError'])[2]"
 Password_Eye = "//span[@class='showPasswordIcon']"
 Studied_Dashboard = "(//span[contains(text(),'Studies')])[1]"
 Studies_Dropdown = "(//div[contains(text(),'Studies')])[1]"
+Studies_Module = "//div[@class='sc-eAKXzc gcOgfO']"
 Studies_Dropdown_Sub_Menu = "(//div[contains(text(),'New study')])[1]"
 Trays_Dashboard = "(//span[contains(text(),'Trays')])[1]"
 Sort_Title = "(//span[contains(text(),'Sort')])[1]"
@@ -48,6 +49,7 @@ Send_Email = "//button[contains(text(),'Send email')]"
 LogOut_Icon = "//i[@class='sign out icon']"
 LogOut_Hyper_link = "//span[contains(text(),'Log out')]"
 Help_Icon = "(//div[@class='ui dropdown item navDropdown'])[2]"
+Help_Icon_Close = '//div[@class="ui active visible dropdown item navDropdown"]'
 My_Studies = "//a[@title='My studies']"
 Created_New_To_Old = "(//div[@class='ui selection dropdown'])[2]"
 My_Studies_All_Option_Selectable = "//div[@class='visible menu transition']"
@@ -119,4 +121,14 @@ Analysis_Queue_Delete_Button = "//button[@class='ui teal mini button']"
 Image = '(//div[@class="sc-jnlKLf djbMhk"])[1]'
 Inter_Date_In_Analysis_Queue = '(//input[@placeholder="yyyy-mm-dd"])[1]'
 Studies_Folder_Icon = '//i[@class="folder icon"]'
-Studies_Text = '//span[@class="navbarText"]'
+Studies_Text = "(//span[contains(text(),'Studies')])[1]"
+Existing_Study_Folder = '(//a[@class="ui card"])[1]'
+Studies_Hyperlink = '(//a[@href="/s/studies"])[1]'
+Study_Information_Module = '//div[@title="Study Information"]'
+Description_Title = '//label[@for="description"]'
+Description_Input_Box = '//textarea[@data-test-id="description-form"]'
+Collaborators_Title = "(//b[contains(text(),'Collaborators')])[1]"
+Viewer_Role = '(//span[@role="VIEWER"])[1]'
+Owner_Role = '(//span[@role="OWNER"])[1]'
+Collaborators_Cross_Icon = '(//div[@title="Revoke study access"])[1]'
+Delete_Collaborator_Access_PopUp = "(//div[contains(text(),'Delete collaborator access')])[1]"
