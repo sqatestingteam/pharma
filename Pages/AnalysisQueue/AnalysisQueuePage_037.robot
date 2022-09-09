@@ -4,7 +4,7 @@ Variables   ../../Locators/locators.py
 
 *** Keywords ***
 
-Verify that the Algorithm Filter options Reset Filter is working properly
+Verify that The started filter Option all filed is working properly
     set selenium implicit wait  300
     click element  ${Close_Button}
     page should contain element  ${Analysis_Queue_Button}
@@ -13,8 +13,11 @@ Verify that the Algorithm Filter options Reset Filter is working properly
     click element  ${All_Jobs}
     page should contain element  ${Time_Arrow_Option}
     click element  ${Time_Arrow_Option}
-    mouse over  ${Submitted}
-    click element  ${Submitted_Sort_Up_and_Down}
+    mouse over  ${Started}
+    click element  ${Started_Sort_Up_and_Down}
     click element  ${Less_Than}
     click element  ${Greater_than}
+    input text  ${Inter_Date_In_Analysis_Queue}  02012021
+    click element  ${Apply_Filter}
+    click element  ${Reset_Filter}
     sleep  3

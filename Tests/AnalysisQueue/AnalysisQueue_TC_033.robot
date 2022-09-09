@@ -1,12 +1,12 @@
 *** Settings ***
 Library     SeleniumLibrary
 Resource  ../../Pages/Login/LoginPage.robot
-Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_032.robot
+Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_033.robot
 
 *** Test Cases ***
 
-Verify that the Algorithm Filter options Reset Filter is working properly
+Verify that the Submitted Filter Option dropdown is working properly
     open my browser
     click signIn
-    Verify that the Algorithm Filter options Reset Filter is working properly
+    Verify that the Submitted Filter Option dropdown is working properly
     close browser

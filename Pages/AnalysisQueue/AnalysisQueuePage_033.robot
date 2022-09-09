@@ -4,7 +4,7 @@ Variables   ../../Locators/locators.py
 
 *** Keywords ***
 
-Verify that the Algorithm Filter options Reset Filter is working properly
+Verify that the Submitted Filter Option dropdown is working properly
     set selenium implicit wait  300
     click element  ${Close_Button}
     page should contain element  ${Analysis_Queue_Button}

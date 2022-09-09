@@ -104,8 +104,10 @@ Slide_Sort_Up_and_Down = '(//div[@class="buttons"])[1]'
 Image_Sort_Up_and_Down = '(//div[@class="buttons"])[1]'
 Contains = "(//div[contains(text(),'Contains')])[1]"
 Less_Than = "(//div[contains(text(),'Less than')])[1]"
+# Less_Than_Second = "(//div[contains(text(),'Less than')])[2]"
 Select_Equals = "//div[normalize-space()='Equals']"
 Greater_than = "//div[normalize-space()='Greater than']"
+In_Range = "//div[normalize-space()='In range']"
 Filter = '(//div[@class="ag-wrapper ag-input-wrapper ag-text-field-input-wrapper"])[1]'
 Apply_Filter = "//button[normalize-space()='Apply Filter']"
 Reset_Filter = "//button[normalize-space()='Reset Filter']"
@@ -115,3 +117,4 @@ Analysis_Queue_Search_Field = '(//input[@placeholder="Filter..."])[1]'
 Check_Box = '(//div[@class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"])[6]'
 Analysis_Queue_Delete_Button = "//button[@class='ui teal mini button']"
 Image = '(//div[@class="sc-jnlKLf djbMhk"])[1]'
+Inter_Date_In_Analysis_Queue = '(//input[@placeholder="yyyy-mm-dd"])[1]'
