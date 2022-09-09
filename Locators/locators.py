@@ -55,6 +55,8 @@ My_Studies = "//a[@title='My studies']"
 Created_New_To_Old = "(//div[@class='ui selection dropdown'])[2]"
 My_Studies_All_Option_Selectable = "//div[@class='visible menu transition']"
 About_Halo_link = "//div[contains(text(),'About HALO Link')]"
+What_Is_New_Halo_link = '//div[@data-test-id="HXIiGvmCMb0I93n22cBVx"]'
+Halo_link_User_Guide = '//a[@download="HALOLink_UserGuide_v3.5.pdf"]'
 Studies_On_My_Studies = "(//span[@class='studyName'])[1]"
 Click_On_Plus_Button_One = "4016"
 Click_On_Plus_Button_Two = "3990"

@@ -8,5 +8,5 @@ Resource  ../../Pages/Help/HelpPage_001.robot
 Verify that display will show you all information about the HOLO system
     open my browser
     click signIn
-    display show all information about Halo
+    Verify that display will show you all information about the HOLO system
     close browser
