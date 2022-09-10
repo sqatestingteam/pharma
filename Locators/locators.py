@@ -28,6 +28,8 @@ Close_Button = "(//button[contains(text(),'Close')])[1]"
 Next_Button = "(//button[contains(text(),'Next')])[2]"
 Update_Button = "(//button[contains(text(),'Update')])[1]"
 Cancel_Button = "(//button[contains(text(),'Cancel')])[1]"
+Copy_Button = "(//button[contains(text(),'Copy')])[1]"
+Start_Conference_Button = "(//button[contains(text(),'Start conference')])[1]"
 Export_Study_Button = "(//button[contains(text(),'Export study')])[1]"
 Create_Tray = "(//button[contains(text(),'Create tray')])[1]"
 Create_Study_Button = "(//button[contains(text(),'Create study')])[1]"
@@ -285,8 +287,10 @@ Rename_Study_Input_Box = '//input[@value="Test Data1"]'
 All_Radio_Button = '//div[@class="inline fields"]'
 Select_File = "(//label[contains(text(),'Select file')])[1]"
 File_Export_Icon = "(//div[contains(text(),'File export')])[1]"
+Conference_Icon = "(//div[contains(text(),'Conference')])[1]"
 Export_Study_Image_Data_PopUp = "(//div[contains(text(),'Export study image data')])[1]"
-
+Study_Collaborators_Title = "(//div[contains(text(),'Study Collaborators')])[1]"
+Copied_To_Clipboard = '//input[@value="Copied to clipboard!"]'
 
 
 
