@@ -330,4 +330,5 @@ Task_Created = '//div[@ref="eCenterColsClipper"]'
 Edit_Icon = '//i[@class="edit icon"]'
 Rename_Task_PopUp = "(//div[contains(text(),'Rename Task')])[1]"
 Rename_Task_Input_Text = '//input[@placeholder="This is input"]'
+Delete_Icon_Study_Setting = '//i[@class="trash alternate icon"]'
 
