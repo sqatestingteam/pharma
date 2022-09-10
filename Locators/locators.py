@@ -28,8 +28,10 @@ Close_Button = "(//button[contains(text(),'Close')])[1]"
 Next_Button = "(//button[contains(text(),'Next')])[2]"
 Update_Button = "(//button[contains(text(),'Update')])[1]"
 Cancel_Button = "(//button[contains(text(),'Cancel')])[1]"
+Export_Study_Button = "(//button[contains(text(),'Export study')])[1]"
 Create_Tray = "(//button[contains(text(),'Create tray')])[1]"
 Create_Study_Button = "(//button[contains(text(),'Create study')])[1]"
+Rename_Study_Button = "(//button[contains(text(),'Rename study')])[1]"
 Select_Button = "(//button[contains(text(),'Select')])[1]"
 Revoke_Button = "(//button[contains(text(),'Revoke')])[1]"
 Rename_Button = "(//button[contains(text(),'Rename')])[1]"
@@ -273,7 +275,17 @@ New_Study_Icon = "(//div[contains(text(),'New study')])[1]"
 Create_New_Study_PopUp = "(//div[contains(text(),'Create new study')])[1]"
 Study_Name_Input_Field = 'study-name'
 Study_Name_Input_Field_CheckBox = '//input[@tabindex="0"]'
-
+Rename_Icon = "(//div[contains(text(),'Rename')])[1]"
+Delete_Icon = "(//div[contains(text(),'Delete')])[1]"
+File_Import_Icon = "(//div[contains(text(),'File import')])[1]"
+Rename_Study_PopUp = "(//div[contains(text(),'Rename study')])[1]"
+Delete_Study_PopUp = "(//div[contains(text(),'Delete study')])[1]"
+Data_Import_PopUp = "(//div[contains(text(),'Data Import')])[1]"
+Rename_Study_Input_Box = '//input[@value="Test Data1"]'
+All_Radio_Button = '//div[@class="inline fields"]'
+Select_File = "(//label[contains(text(),'Select file')])[1]"
+File_Export_Icon = "(//div[contains(text(),'File export')])[1]"
+Export_Study_Image_Data_PopUp = "(//div[contains(text(),'Export study image data')])[1]"
 
 
 
