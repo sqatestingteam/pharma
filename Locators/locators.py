@@ -163,3 +163,26 @@ Basic_Information_Title = "(//span[contains(text(),'Basic Information')])[1]"
 Basic_Information_Edit_Icon = '(//div[@title="Edit the field"])[1]'
 Barcode_Input_Box = '//input[@name="barcode"]'
 Time_Created_Input_Box = '//input[@name="createdTime"]'
+Field_Title = "(//span[contains(text(),'Fields')])[1]"
+Field_Edit_Icon = '(//div[@title="Edit the field"])[2]'
+Block_ID = '//input[@name="30"]'
+Subject_ID = '//input[@name="31"]'
+Click_On_Stain = '//div[@class="css-1pcexqc-container"]'
+Select_Stain = "//div[@id='react-select-60-option-3']"
+Tissue_Type = "//div[@id='select-33']//input[@type='text']"
+Select_Tissue_Type = "//span[normalize-space()='Adrenal Gland']"
+Comment_Box = '//textarea[@name="39"]'
+Finding = 'select-49'
+Select_Finding = "//span[normalize-space()='Apoptosis']"
+Finding_Location = 'select-50'
+Select_Finding_Location = "//span[normalize-space()='(lymph node)']"
+Finding_Severity = 'select-51'
+Select_Finding_Severity = "//span[normalize-space()='2 Slight']"
+Finding_Distribution = 'select-52'
+Select_Finding_Distribution = "//span[normalize-space()='Focal']"
+Annotators_Layer_Bar = '(//a[@class="item"])[5]'
+Annotators_Layer_Bar_Plus_Icon = '//i[@title="Add new layer"]'
+New_Layer_Is_Created = '//div[@class="ui card activeCard"]'
+Type_Dropdown = '//div[@data-test-id="set-classifier-name-dropdown"]'
+
+
