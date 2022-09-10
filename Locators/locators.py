@@ -308,6 +308,26 @@ Delete_selected_jobs_PopUp = "(//div[contains(text(),'Delete selected jobs?')])[
 Display_In_Footer = "(//span[contains(text(),'Display')])[1]"
 Fifty_Button = '//button[@class="ui button"]'
 Hundred_Button = '//button[@class="ui button"]'
-
-
+Name = "(//div[contains(text(),'Name')])[1]"
+Label = "(//div[contains(text(),'Label')])[1]"
+Thumbnail = "(//div[contains(text(),'Thumbnail')])[1]"
+Queued_Time = "(//div[contains(text(),'Queued Time')])[1]"
+Job_Status = "(//div[contains(text(),'Job Status')])[1]"
+Region_Analysis = "(//div[contains(text(),'Region of Analysis')])[1]"
+Analysis_Settings = "(//div[contains(text(),'Analysis Settings')])[1]"
+Name_Filter_Icon = '(//div[@class="filter-icon-container"])[1]'
+Contains_Dropdown_Analysis = '//select[@data-test-id="6Rb2g5EGqkIaGdLeIZ1y6"]'
+Select_Equals_Analysis = "//option[normalize-space()='Equals']"
+Data_Search_Field = '//input[@data-test-id="AKHoP7eNrXMf4v0P3hBB"]'
+Sort_Icon = '(//span[@title="Toggle SortBy"])[1]'
+Study_Settings_Module = '//div[@title="Study Settings"]'
+Study_Field = "(//a[contains(text(),'Study Fields')])[1]"
+Slide_Task = "(//a[contains(text(),'Slide Tasks')])[1]"
+Task_Plus_Icon = '//i[@data-test-id="wxnppRoCSqRI1R_AB-2Cy"]'
+Create_Task_PopUp = "(//div[contains(text(),'Create Task')])[1]"
+Create_Task_Text_Field = '(//input[@type="text"])[2]'
+Task_Created = '//div[@ref="eCenterColsClipper"]'
+Edit_Icon = '//i[@class="edit icon"]'
+Rename_Task_PopUp = "(//div[contains(text(),'Rename Task')])[1]"
+Rename_Task_Input_Text = '//input[@placeholder="This is input"]'
 
