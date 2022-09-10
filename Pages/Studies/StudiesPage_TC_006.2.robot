@@ -4,7 +4,7 @@ Variables   ../../Locators/locators.py
 
 *** Keywords ***
 
-Verify ellipsis icon is work or not
+Verify New Study menu is work or not
     set selenium implicit wait  300
     click button  ${Close_Button}
     click element  ${Help_Icon_Close}
@@ -12,7 +12,10 @@ Verify ellipsis icon is work or not
     page should contain element  ${Studied_Dashboard}
     click element  ${Existing_Study_Folder_Second}
     click element  ${Ellipsis_Icon}
-    click element  ${Favourite_Icon}
-    click element  ${Ellipsis_Icon}
-    click element  ${Unfavorite_Icon}
+    click element  ${New_Study_Icon}
+    Element Should Be Visible  ${Create_New_Study_PopUp}
+    input text  ${Study_Name_Input_Field}   This is Input text
+    Checkbox Should Be Selected     ${Study_Name_Input_Field_CheckBox}
+    Element Should Be Visible  ${Cancel_Button}
+    click button  ${Create_Study_Button}
     sleep  3

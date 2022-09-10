@@ -266,6 +266,15 @@ Share_Icon = 'shareAlternate'
 Viewer_Settings_Icon = 'viewerSettings'
 Shortcuts_Icon = 'shortcuts'
 Flood_Fill_Icon = 'svg-inline--fa-title-5qWExkmq9uuP'
+Ellipsis_Icon = '//div[@class="studyActionMenu"]'
+Favourite_Icon = "(//div[contains(text(),'Favorite')])[1]"
+Unfavorite_Icon = "(//div[contains(text(),'Unfavorite')])[1]"
+New_Study_Icon = "(//div[contains(text(),'New study')])[1]"
+Create_New_Study_PopUp = "(//div[contains(text(),'Create new study')])[1]"
+Study_Name_Input_Field = 'study-name'
+Study_Name_Input_Field_CheckBox = '//input[@tabindex="0"]'
+
+
 
 
 
