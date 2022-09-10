@@ -53,6 +53,7 @@ Rename_Tray_Input = "//input[@value='aa']"
 Delete_Tray = "(//div[contains(text(),'Delete Tray')])[1]"
 Delete_PopUp = "(//div[contains(text(),'Delete Tray')])[1]"
 Delete_Button = "(//button[contains(text(),'Delete')])[1]"
+Delete_Button_Sec = "(//button[contains(text(),'Delete')])[2]"
 Profile_icon = "//i[@class='user outline fitted icon']"
 Profile_image = "//div[@class='sc-dxgOiQ hGcaOc']"
 Email_id = "//div[@class='userColorIconContainer']"
@@ -93,6 +94,7 @@ Configure_Option = "//span[contains(text(),'Configure')]"
 Slide_Style = "(//div[@class='ui card activeCard slideCard'])[2]"
 Slide_Attributes = "//div[@data-test-id='attribute-checkbox-0']"
 Save_Button = "//button[contains(text(),'Save')]"
+Plot_Button = "//button[contains(text(),'Plot')]"
 Share_Button = "//button[contains(text(),'Share')]"
 Share_Button_Invite_User = "(//button[contains(text(),'Share')])[2]"
 Save_Or_Load_Search = "//span[contains(text(),'Save or load a search')]"
@@ -291,8 +293,21 @@ Conference_Icon = "(//div[contains(text(),'Conference')])[1]"
 Export_Study_Image_Data_PopUp = "(//div[contains(text(),'Export study image data')])[1]"
 Study_Collaborators_Title = "(//div[contains(text(),'Study Collaborators')])[1]"
 Copied_To_Clipboard = '//input[@value="Copied to clipboard!"]'
-
-
+Analysis_Job_Module = '//div[@title="Analysis jobs"]'
+All_Mark_Checkbox = '//input[@title="Toggle All Rows Selected"]'
+Single_Data_Checkbox = '(//input[@title="Toggle Row Selected"])[1]'
+Plot_Type = "(//div[@class='css-16pqwjk-indicatorContainer'])[1]"
+Select_Plot_Type = "(//div[contains(text(),'Violin')])[1]"
+X_Axis = "(//div[@class='css-16pqwjk-indicatorContainer'])[2]"
+Y_Axis = "(//div[@class='css-16pqwjk-indicatorContainer'])[3]"
+Select_X_Axis = "(//div[contains(text(),'Stain')])[1]"
+Select_Y_Axis = "(//div[contains(text(),'POSITIVE COUNT')])[1]"
+Plot_Title = '//input[@placeholder="Add a plot title"]'
+Plot_Sub_Title = '//input[@placeholder="Add a plot subtitle"]'
+Delete_selected_jobs_PopUp = "(//div[contains(text(),'Delete selected jobs?')])[1]"
+Display_In_Footer = "(//span[contains(text(),'Display')])[1]"
+Fifty_Button = '//button[@class="ui button"]'
+Hundred_Button = '//button[@class="ui button"]'
 
 
 
