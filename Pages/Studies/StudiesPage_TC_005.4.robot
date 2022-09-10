@@ -23,6 +23,7 @@ Check Fields edit option
     click element   ${Field_Edit_Icon}
     input text  ${Subject_ID}   This is Subject
     input text  ${Block_ID}     This is Block
+#    Stain is not working in automation
 #    click element   ${Click_On_Stain}
 #    click element   ${Select_Stain}
     click element   ${Tissue_Type}

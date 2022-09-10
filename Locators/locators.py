@@ -25,13 +25,19 @@ New_Trays = "(//span[contains(text(),'New tray')])[1]"
 Create_New_Tray = "(//div[contains(text(),'Create new tray')])[1]"
 Enter_Tray_Name = "//input[@value='Untitled tray']"
 Close_Button = "(//button[contains(text(),'Close')])[1]"
+Next_Button = "(//button[contains(text(),'Next')])[2]"
 Update_Button = "(//button[contains(text(),'Update')])[1]"
 Cancel_Button = "(//button[contains(text(),'Cancel')])[1]"
+Create_Tray = "(//button[contains(text(),'Create tray')])[1]"
+Create_Study_Button = "(//button[contains(text(),'Create study')])[1]"
+Select_Button = "(//button[contains(text(),'Select')])[1]"
 Revoke_Button = "(//button[contains(text(),'Revoke')])[1]"
 Rename_Button = "(//button[contains(text(),'Rename')])[1]"
 Create_Button = "(//button[contains(text(),'Create')])[1]"
 Clear_Button = "(//button[contains(text(),'Clear')])[1]"
+Remove_Button = "(//button[contains(text(),'Remove')])[1]"
 Post_Button = "(//button[contains(text(),'Post')])[1]"
+Previous_Button_In_Border_Decoder = "(//button[contains(text(),'Previous')])[3]"
 Submit_Job_Button = "(//button[contains(text(),'Submit job')])[1]"
 Tray_Created = "(//div[@class='ui card'])[1]"
 Ellipsis_Button = "(//i[@class='ellipsis vertical icon actionsPopupTrigger'])[1]"
@@ -205,3 +211,63 @@ Filter_Option = '//div[@title="Filter and sort the slide list"]'
 Setting_Option = '//div[@title="Slide list settings"]'
 Plus_Icon_On_Existing_Slide = '(//div[@title="Open this slide"])[1]'
 Close_Icon_On_Existing_Slide = '(//div[@title="Close this slide"])[1]'
+Analyze_Tab = "//span[normalize-space()='Analyze']"
+Edit_Tab = "//span[normalize-space()='Edit']"
+Bulk_Edit_PopUp = "(//div[contains(text(),'Bulk Edit')])[1]"
+Esim_Run_Time = 'U3lzdGVtRmllbGQ6NzQ='
+Test_Article_Vehicle = 'U3lzdGVtRmllbGQ6MTAx'
+Administration_Route = '(//i[@class="dropdown icon"])[9]'
+Select_Administration_Route = "//span[normalize-space()='Dermal']"
+Sex_Dropdown = '(//i[@class="dropdown icon"])[9]'
+Select_Sex = "//span[normalize-space()='F']"
+Label_Rotation = "(//a[contains(text(),'Label Rotation')])[1]"
+Decode_Tab = "//span[normalize-space()='Decode']"
+Copy_Tab = "//span[normalize-space()='Copy']"
+Delimiter = '//select[@data-test-id="delimiter-selection"]'
+Select_Delimiter = '//option[@value=","]'
+Field = '//select[@data-test-id="field-select-0"]'
+Select_Field = '//option[@value="Slide_SubjectID"]'
+Copy_Image_To_Study_PopUp = "(//div[contains(text(),'Copy image to study')])[1]"
+Studies_Folder_In_Copy_Image_To_Study = '(//div[@class="sc-gxMtzJ ldrVqS"])[1]'
+Copy_Tab_Right_Side_Down_Icon = '(//button[@class="sc-kfGgVZ cNEfCt"])[7]'
+Copy_To_Tray = "(//div[contains(text(),'Copy to Tray')])[1]"
+Copy_Images_To_Tray_Popup = "(//div[contains(text(),'Copy image to tray')])[1]"
+Image_Bar = '(//strong[@title="image"])[1]'
+New_Tray_Input_Field = '(//input[@placeholder="Type a name and press enter to create a new tray"])[1]'
+Successfully_Images_Copied_Popup_Alert = "//h4[@class='title']"
+Move_Tab = "//span[normalize-space()='Move']"
+Move_Image_To_Study_PopUp = "(//div[contains(text(),'Move image to study')])[1]"
+Remove_Tab = "//span[normalize-space()='Remove']"
+Remove_Image_PopUp = "(//div[contains(text(),'Remove image')])[1]"
+All_Checkbox = '(//div[@class="ag-react-container"])[1]'
+Role_Access_Icon = '(//div[@class="chipContainer"])[1]'
+Calender_Date_Icon = '(//div[@class="chipContainer"])[2]'
+Slide_Grid_View_Icon = '(//div[@class="chipContainer"])[2]'
+Sub_Studies = '//div[@title="Substudies"]'
+Grid_Metadata_View = '//div[@class="viewDropdownTrigger"]'
+Grid_View = "(//div[contains(text(),'Grid view')])[1]"
+Metadata_View = "(//div[contains(text(),'Metadata view')])[1]"
+Image_Properties_Title = '//span[@class="ag-header-icon ag-header-expand-icon ag-header-expand-icon-expanded"]'
+Name_Is_Editable = '//div[@comp-id="1035"]'
+Annotated_Analyze_Icon = '(//a[@title="Annotated"])[1]'
+Open_Full_Screen_View = '//div[@title="Open fullscreen view"]'
+Fit_Icon = '//div[@title="Fit"]'
+Zoom_Icon = '//div[@class="zoomMagnifySlider"]'
+Left_And_Right_Icon = 'next'
+Slide_Setting_Icon = '//div[@title="Slide settings"]'
+Pan_Icon = 'PAN'
+RECTANGLE_Icon = 'RECTANGLE'
+ELLIPSE_Icon = 'ELLIPSE'
+POLYGON_Icon = 'POLYGON'
+BRUSH_Icon = 'BRUSH'
+PIN_Icon = 'PIN'
+Camera_Icon = 'camera'
+Share_Icon = 'shareAlternate'
+Viewer_Settings_Icon = 'viewerSettings'
+Shortcuts_Icon = 'shortcuts'
+Flood_Fill_Icon = 'svg-inline--fa-title-5qWExkmq9uuP'
+
+
+
+
+
