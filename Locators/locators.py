@@ -199,3 +199,9 @@ Last_Layer_Checkbox = "//span[normalize-space()='Last layer']"
 Layer_One_Checkbox = "//span[normalize-space()='Layer 1']"
 Comments_Bar = '(//a[@class="item"])[7]'
 Comments_Box = '//textarea[@placeholder="Enter your comment here."]'
+Attachment_Bar = '(//a[@class="item"])[8]'
+Slide_List_Bar = '(//a[@class="item"])[9]'
+Filter_Option = '//div[@title="Filter and sort the slide list"]'
+Setting_Option = '//div[@title="Slide list settings"]'
+Plus_Icon_On_Existing_Slide = '(//div[@title="Open this slide"])[1]'
+Close_Icon_On_Existing_Slide = '(//div[@title="Close this slide"])[1]'
