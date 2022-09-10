@@ -31,6 +31,8 @@ Revoke_Button = "(//button[contains(text(),'Revoke')])[1]"
 Rename_Button = "(//button[contains(text(),'Rename')])[1]"
 Create_Button = "(//button[contains(text(),'Create')])[1]"
 Clear_Button = "(//button[contains(text(),'Clear')])[1]"
+Post_Button = "(//button[contains(text(),'Post')])[1]"
+Submit_Job_Button = "(//button[contains(text(),'Submit job')])[1]"
 Tray_Created = "(//div[@class='ui card'])[1]"
 Ellipsis_Button = "(//i[@class='ellipsis vertical icon actionsPopupTrigger'])[1]"
 Start_Conference = "//div[normalize-space()='Start Conference']"
@@ -184,5 +186,16 @@ Annotators_Layer_Bar = '(//a[@class="item"])[5]'
 Annotators_Layer_Bar_Plus_Icon = '//i[@title="Add new layer"]'
 New_Layer_Is_Created = '//div[@class="ui card activeCard"]'
 Type_Dropdown = '//div[@data-test-id="set-classifier-name-dropdown"]'
-
-
+Analysis_Bar = '(//a[@class="item"])[6]'
+Analysis_Bar_Plus_Icon = '//div[@title="Analyze image"]'
+Analyze_Slides_PopUp = "(//div[contains(text(),'Analyze slides')])[1]"
+Analyze_Setting_Checkbox = "showAllSettings"
+Analyze_Setting_Dropdown = "setting"
+Region_Of_Analysis_First_Radia_Button = '//label[@for="constants-0"]'
+Region_Of_Analysis_Sec_Radia_Button = '//label[@for="constants-1"]'
+Region_Of_Analysis_Thi_Radia_Button = '//label[@for="constants-2"]'
+Region_Of_Analysis_Forth_Radia_Button = '//label[@for="constants-3"]'
+Last_Layer_Checkbox = "//span[normalize-space()='Last layer']"
+Layer_One_Checkbox = "//span[normalize-space()='Layer 1']"
+Comments_Bar = '(//a[@class="item"])[7]'
+Comments_Box = '//textarea[@placeholder="Enter your comment here."]'
