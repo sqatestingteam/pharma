@@ -5,8 +5,8 @@ Resource  ../../Pages/Studies/StudiesPage_TC_003.4.robot
 
 *** Test Cases ***
 
-Verify Existing New Study folder is clickable
+Verify studies module is visible
     open my browser
     click signIn
-    Verify Existing New Study folder is clickable
+    Verify studies module is visible
     close browser

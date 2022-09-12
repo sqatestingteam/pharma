@@ -11,6 +11,11 @@ Verify Add to favorite icon
     click element  ${Dismiss_Button}
     page should contain element  ${Studied_Dashboard}
     mouse over  ${Existing_Study_Folder}
+    mouse over  ${Favourite_Icon_Studies}
+    wait until element is visible   ${Add_To_Favorite}
     click element   ${Favourite_Icon_Studies}
-
+    Element Should Be Visible   ${Favourite_Studies_Section}
+    mouse over  ${Unfavorite_Icon_Studies}
+    wait until element is visible   ${Unfavorite_This_Study}
+    click element   ${Unfavorite_Icon_Studies}
     sleep  3

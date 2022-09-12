@@ -1,150 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.8.10 on win32)" generated="20220911 21:47:27.132" rpa="false" schemaversion="3">
-<suite id="s1" name="StudiesTest TC 003.5" source="D:\pharma\Tests\Studies\StudiesTest_TC_003.5.robot">
-<test id="s1-t1" name="Verify Existing New Study folder is clickable" line="8">
+<robot generator="Robot 5.0.1 (Python 3.8.10 on win32)" generated="20220912 17:45:25.868" rpa="false" schemaversion="3">
+<suite id="s1" name="StudiesTest TC 003.6" source="D:\pharma\Tests\Studies\StudiesTest_TC_003.6.robot">
+<test id="s1-t1" name="Verify Favorite icon is visible under the study folder" line="8">
 <kw name="open my browser" library="LoginPage">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${SiteUrl}</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220911 21:47:27.500" level="INFO">Opening browser 'chrome' to base url 'https://sandbox.jnjesm.com/'.</msg>
-<status status="PASS" starttime="20220911 21:47:27.500" endtime="20220911 21:47:39.895"/>
+<msg timestamp="20220912 17:45:26.228" level="INFO">Opening browser 'chrome' to base url 'https://sandbox.jnjesm.com/'.</msg>
+<status status="PASS" starttime="20220912 17:45:26.228" endtime="20220912 17:45:46.629"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20220911 21:47:39.896" endtime="20220911 21:47:43.375"/>
+<status status="PASS" starttime="20220912 17:45:46.630" endtime="20220912 17:45:46.753"/>
 </kw>
-<status status="PASS" starttime="20220911 21:47:27.500" endtime="20220911 21:47:43.375"/>
+<status status="PASS" starttime="20220912 17:45:26.228" endtime="20220912 17:45:46.753"/>
 </kw>
 <kw name="click signIn" library="LoginPage">
 <kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
 <arg>300</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" starttime="20220911 21:47:43.375" endtime="20220911 21:47:43.375"/>
+<status status="PASS" starttime="20220912 17:45:46.753" endtime="20220912 17:45:46.753"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Authentication_Method}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220911 21:47:43.375" level="INFO">Clicking element '//select[@name='scheme']'.</msg>
-<status status="PASS" starttime="20220911 21:47:43.375" endtime="20220911 21:47:43.641"/>
+<msg timestamp="20220912 17:45:46.753" level="INFO">Clicking element '//select[@name='scheme']'.</msg>
+<status status="PASS" starttime="20220912 17:45:46.753" endtime="20220912 17:45:47.037"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Select_Authentication_Method}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220911 21:47:43.643" level="INFO">Clicking element '//option[contains(text(),'Non-J&amp;J')]'.</msg>
-<status status="PASS" starttime="20220911 21:47:43.642" endtime="20220911 21:47:43.713"/>
+<msg timestamp="20220912 17:45:47.038" level="INFO">Clicking element '//option[contains(text(),'Non-J&amp;J')]'.</msg>
+<status status="PASS" starttime="20220912 17:45:47.037" endtime="20220912 17:45:47.133"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${SET_EMAIL}</arg>
 <arg>${user}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20220911 21:47:43.715" level="INFO">Typing text 'ramin@rchsolutions.com' into text field '//input[@name='username']'.</msg>
-<status status="PASS" starttime="20220911 21:47:43.713" endtime="20220911 21:47:43.968"/>
+<msg timestamp="20220912 17:45:47.134" level="INFO">Typing text 'ramin@rchsolutions.com' into text field '//input[@name='username']'.</msg>
+<status status="PASS" starttime="20220912 17:45:47.134" endtime="20220912 17:45:47.515"/>
 </kw>
 <kw name="Page Should Contain Textfield" library="SeleniumLibrary">
 <arg>${user}</arg>
 <doc>Verifies text field ``locator`` is found from current page.</doc>
-<msg timestamp="20220911 21:47:43.991" level="INFO">Current page contains text field 'ramin@rchsolutions.com'.</msg>
-<status status="PASS" starttime="20220911 21:47:43.969" endtime="20220911 21:47:43.991"/>
+<msg timestamp="20220912 17:45:47.540" level="INFO">Current page contains text field 'ramin@rchsolutions.com'.</msg>
+<status status="PASS" starttime="20220912 17:45:47.516" endtime="20220912 17:45:47.540"/>
 </kw>
 <kw name="Input Password" library="SeleniumLibrary">
 <arg>${SET_PASS}</arg>
 <arg>${password}</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<msg timestamp="20220911 21:47:43.992" level="INFO">Typing password into text field '//input[@name='password']'.</msg>
-<msg timestamp="20220911 21:47:44.058" level="INFO">Temporally setting log level to: NONE</msg>
-<msg timestamp="20220911 21:47:44.181" level="INFO">Log level changed from NONE to INFO.</msg>
-<status status="PASS" starttime="20220911 21:47:43.991" endtime="20220911 21:47:44.181"/>
+<msg timestamp="20220912 17:45:47.541" level="INFO">Typing password into text field '//input[@name='password']'.</msg>
+<msg timestamp="20220912 17:45:47.600" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20220912 17:45:47.756" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20220912 17:45:47.540" endtime="20220912 17:45:47.756"/>
 </kw>
 <kw name="Page Should Contain Textfield" library="SeleniumLibrary">
 <arg>${password}</arg>
 <doc>Verifies text field ``locator`` is found from current page.</doc>
-<msg timestamp="20220911 21:47:44.244" level="INFO">Current page contains text field 'Swamibapa2022@'.</msg>
-<status status="PASS" starttime="20220911 21:47:44.182" endtime="20220911 21:47:44.244"/>
+<msg timestamp="20220912 17:45:47.789" level="INFO">Current page contains text field 'Swamibapa2022@'.</msg>
+<status status="PASS" starttime="20220912 17:45:47.757" endtime="20220912 17:45:47.789"/>
 </kw>
 <kw name="Page Should Contain Button" library="SeleniumLibrary">
 <arg>${CLICK_SIGNIN_BTN}</arg>
 <doc>Verifies button ``locator`` is found from current page.</doc>
-<msg timestamp="20220911 21:47:44.281" level="INFO">Current page contains button '//button[@value='login']'.</msg>
-<status status="PASS" starttime="20220911 21:47:44.244" endtime="20220911 21:47:44.281"/>
+<msg timestamp="20220912 17:45:47.854" level="INFO">Current page contains button '//button[@value='login']'.</msg>
+<status status="PASS" starttime="20220912 17:45:47.790" endtime="20220912 17:45:47.855"/>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>${FORGOT_PASS_HYPERLINK}</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220911 21:47:44.295" level="INFO">Current page contains element '//a[contains(text(),'Forgot password?')]'.</msg>
-<status status="PASS" starttime="20220911 21:47:44.281" endtime="20220911 21:47:44.295"/>
+<msg timestamp="20220912 17:45:47.871" level="INFO">Current page contains element '//a[contains(text(),'Forgot password?')]'.</msg>
+<status status="PASS" starttime="20220912 17:45:47.855" endtime="20220912 17:45:47.872"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${CLICK_SIGNIN_BTN}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220911 21:47:44.296" level="INFO">Clicking element '//button[@value='login']'.</msg>
-<status status="PASS" starttime="20220911 21:47:44.295" endtime="20220911 21:47:47.803"/>
+<msg timestamp="20220912 17:45:47.872" level="INFO">Clicking element '//button[@value='login']'.</msg>
+<status status="PASS" starttime="20220912 17:45:47.872" endtime="20220912 17:45:51.258"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220911 21:47:52.814" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20220911 21:47:47.803" endtime="20220911 21:47:52.815"/>
+<msg timestamp="20220912 17:45:56.261" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220912 17:45:51.258" endtime="20220912 17:45:56.261"/>
 </kw>
-<status status="PASS" starttime="20220911 21:47:43.375" endtime="20220911 21:47:52.816"/>
+<status status="PASS" starttime="20220912 17:45:46.753" endtime="20220912 17:45:56.261"/>
 </kw>
-<kw name="Verify Add to favorite icon" library="StudiesPage_TC_003.5">
+<kw name="Verify Favorite icon is visible under the study folder" library="StudiesPage_TC_003.6">
 <kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
 <arg>300</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" starttime="20220911 21:47:52.820" endtime="20220911 21:47:52.829"/>
+<status status="PASS" starttime="20220912 17:45:56.263" endtime="20220912 17:45:56.265"/>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
 <arg>${Close_Button}</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<msg timestamp="20220911 21:47:52.832" level="INFO">Clicking button '(//button[contains(text(),'Close')])[1]'.</msg>
-<status status="PASS" starttime="20220911 21:47:52.830" endtime="20220911 21:47:52.963"/>
+<msg timestamp="20220912 17:45:56.266" level="INFO">Clicking button '(//button[contains(text(),'Close')])[1]'.</msg>
+<status status="PASS" starttime="20220912 17:45:56.265" endtime="20220912 17:45:56.387"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Help_Icon_Close}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220911 21:47:52.964" level="INFO">Clicking element '//div[@class="ui active visible dropdown item navDropdown"]'.</msg>
-<status status="PASS" starttime="20220911 21:47:52.963" endtime="20220911 21:47:53.032"/>
+<msg timestamp="20220912 17:45:56.389" level="INFO">Clicking element '//div[@class="ui active visible dropdown item navDropdown"]'.</msg>
+<status status="PASS" starttime="20220912 17:45:56.388" endtime="20220912 17:45:56.461"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Dismiss_Button}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220911 21:47:53.033" level="INFO">Clicking element '//i[@title='Dimiss message']'.</msg>
-<status status="PASS" starttime="20220911 21:47:53.032" endtime="20220911 21:47:53.100"/>
+<msg timestamp="20220912 17:45:56.462" level="INFO">Clicking element '//i[@title='Dimiss message']'.</msg>
+<status status="PASS" starttime="20220912 17:45:56.462" endtime="20220912 17:45:56.561"/>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>${Studied_Dashboard}</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20220911 21:47:53.114" level="INFO">Current page contains element '(//span[contains(text(),'Studies')])[1]'.</msg>
-<status status="PASS" starttime="20220911 21:47:53.101" endtime="20220911 21:47:53.114"/>
+<msg timestamp="20220912 17:45:56.580" level="INFO">Current page contains element '(//span[contains(text(),'Studies')])[1]'.</msg>
+<status status="PASS" starttime="20220912 17:45:56.562" endtime="20220912 17:45:56.580"/>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <arg>${Existing_Study_Folder}</arg>
 <doc>Simulates hovering the mouse over the element ``locator``.</doc>
-<msg timestamp="20220911 21:47:53.115" level="INFO">Simulating Mouse Over on element '(//a[@class="ui card"])[1]'.</msg>
-<status status="PASS" starttime="20220911 21:47:53.115" endtime="20220911 21:47:53.399"/>
+<msg timestamp="20220912 17:45:56.581" level="INFO">Simulating Mouse Over on element '(//a[@class="ui card"])[1]'.</msg>
+<status status="PASS" starttime="20220912 17:45:56.581" endtime="20220912 17:45:56.866"/>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<arg>${Favourite_Icon_Studies}</arg>
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<msg timestamp="20220912 17:45:56.867" level="INFO">Simulating Mouse Over on element '(//i[@class="teal star outline icon"])[1]'.</msg>
+<status status="PASS" starttime="20220912 17:45:56.866" endtime="20220912 17:45:57.158"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${Add_To_Favorite}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220912 17:45:57.159" endtime="20220912 17:45:57.204"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Favourite_Icon_Studies}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20220911 21:47:53.399" level="INFO">Clicking element '(//i[@class="teal star outline icon"])[1]'.</msg>
-<status status="PASS" starttime="20220911 21:47:53.399" endtime="20220911 21:47:53.510"/>
+<msg timestamp="20220912 17:45:57.205" level="INFO">Clicking element '(//i[@class="teal star outline icon"])[1]'.</msg>
+<status status="PASS" starttime="20220912 17:45:57.205" endtime="20220912 17:45:57.300"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${Existing_Study_Folder}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220912 17:45:57.303" level="INFO">Clicking element '(//a[@class="ui card"])[1]'.</msg>
+<status status="PASS" starttime="20220912 17:45:57.301" endtime="20220912 17:45:57.394"/>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>${Star_Icon_For_Favourite}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20220912 17:46:00.475" level="INFO">Element '//i[@class="star fitted icon"]' is displayed.</msg>
+<status status="PASS" starttime="20220912 17:45:57.394" endtime="20220912 17:46:00.475"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20220911 21:47:56.516" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20220911 21:47:53.510" endtime="20220911 21:47:56.516"/>
+<msg timestamp="20220912 17:46:03.488" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220912 17:46:00.475" endtime="20220912 17:46:03.488"/>
 </kw>
-<status status="PASS" starttime="20220911 21:47:52.818" endtime="20220911 21:47:56.516"/>
+<status status="PASS" starttime="20220912 17:45:56.262" endtime="20220912 17:46:03.488"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20220911 21:47:56.516" endtime="20220911 21:48:00.400"/>
+<status status="PASS" starttime="20220912 17:46:03.488" endtime="20220912 17:46:05.708"/>
 </kw>
-<status status="PASS" starttime="20220911 21:47:27.500" endtime="20220911 21:48:00.403"/>
+<status status="PASS" starttime="20220912 17:45:26.228" endtime="20220912 17:46:05.708"/>
 </test>
-<status status="PASS" starttime="20220911 21:47:27.132" endtime="20220911 21:48:00.411"/>
+<status status="PASS" starttime="20220912 17:45:25.868" endtime="20220912 17:46:05.708"/>
 </suite>
 <statistics>
 <total>
@@ -153,7 +176,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="StudiesTest TC 003.5">StudiesTest TC 003.5</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="StudiesTest TC 003.6">StudiesTest TC 003.6</stat>
 </suite>
 </statistics>
 <errors>

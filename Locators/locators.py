@@ -327,10 +327,13 @@ Task_Plus_Icon = '//i[@data-test-id="wxnppRoCSqRI1R_AB-2Cy"]'
 Create_Task_PopUp = "(//div[contains(text(),'Create Task')])[1]"
 Create_Task_Text_Field = '(//input[@type="text"])[2]'
 Task_Created = '//div[@ref="eCenterColsClipper"]'
-Edit_Icon = '//i[@class="edit icon"]'
+Edit_Icon = '(//i[@class="edit icon"])[1]'
 Rename_Task_PopUp = "(//div[contains(text(),'Rename Task')])[1]"
 Rename_Task_Input_Text = '//input[@placeholder="This is input"]'
 Delete_Icon_Study_Setting = '//i[@class="trash alternate icon"]'
 Favourite_Icon_Studies = '(//i[@class="teal star outline icon"])[1]'
-
-
+Favourite_Studies_Section = "(//h3[contains(text(),'Favorite Studies')])[1]"
+Unfavorite_Icon_Studies = '(//i[@class="teal star icon"])[1]'
+Unfavorite_This_Study = "//div[contains(text(),'Unfavorite this study')]"
+Add_To_Favorite = "//div[contains(text(),'Add to favorites')]"
+Star_Icon_For_Favourite = '//i[@class="star fitted icon"]'
