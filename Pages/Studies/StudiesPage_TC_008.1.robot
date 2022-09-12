@@ -23,7 +23,7 @@ Check Study Setting module
     Element Should Be Visible  ${Task_Created}
     click element   ${Edit_Icon}
     Element Should Be Visible  ${Rename_Task_PopUp}
-    input text  ${Rename_Task_Input_Text}   This is input new
+    input text  ${Rename_Task_Input_Text}   This is input new+${numbers}
     Element Should Be Visible  ${Cancel_Button}
     click button  ${Save_Button}
     sleep  3

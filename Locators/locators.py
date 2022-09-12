@@ -222,9 +222,9 @@ Edit_Tab = "//span[normalize-space()='Edit']"
 Bulk_Edit_PopUp = "(//div[contains(text(),'Bulk Edit')])[1]"
 Esim_Run_Time = 'U3lzdGVtRmllbGQ6NzQ='
 Test_Article_Vehicle = 'U3lzdGVtRmllbGQ6MTAx'
-Administration_Route = '(//i[@class="dropdown icon"])[9]'
+Administration_Route = '(//i[@class="dropdown icon"])[13]'
 Select_Administration_Route = "//span[normalize-space()='Dermal']"
-Sex_Dropdown = '(//i[@class="dropdown icon"])[9]'
+Sex_Dropdown = '(//i[@class="dropdown icon"])[14]'
 Select_Sex = "//span[normalize-space()='F']"
 Label_Rotation = "(//a[contains(text(),'Label Rotation')])[1]"
 Decode_Tab = "//span[normalize-space()='Decode']"
@@ -253,7 +253,7 @@ Sub_Studies = '//div[@title="Substudies"]'
 Grid_Metadata_View = '//div[@class="viewDropdownTrigger"]'
 Grid_View = "(//div[contains(text(),'Grid view')])[1]"
 Metadata_View = "(//div[contains(text(),'Metadata view')])[1]"
-Image_Properties_Title = '//span[@class="ag-header-icon ag-header-expand-icon ag-header-expand-icon-expanded"]'
+Image_Properties_Title = '(//span[@class="ag-header-icon ag-header-expand-icon ag-header-expand-icon-expanded"])[1]'
 Name_Is_Editable = '//div[@comp-id="1035"]'
 Annotated_Analyze_Icon = '(//a[@title="Annotated"])[1]'
 Open_Full_Screen_View = '//div[@title="Open fullscreen view"]'
@@ -285,7 +285,7 @@ File_Import_Icon = "(//div[contains(text(),'File import')])[1]"
 Rename_Study_PopUp = "(//div[contains(text(),'Rename study')])[1]"
 Delete_Study_PopUp = "(//div[contains(text(),'Delete study')])[1]"
 Data_Import_PopUp = "(//div[contains(text(),'Data Import')])[1]"
-Rename_Study_Input_Box = '//input[@value="Test Data1"]'
+Rename_Study_Input_Box = '(//input[@type="text"])[2]'
 All_Radio_Button = '//div[@class="inline fields"]'
 Select_File = "(//label[contains(text(),'Select file')])[1]"
 File_Export_Icon = "(//div[contains(text(),'File export')])[1]"
@@ -327,9 +327,9 @@ Task_Plus_Icon = '//i[@data-test-id="wxnppRoCSqRI1R_AB-2Cy"]'
 Create_Task_PopUp = "(//div[contains(text(),'Create Task')])[1]"
 Create_Task_Text_Field = '(//input[@type="text"])[2]'
 Task_Created = '//div[@ref="eCenterColsClipper"]'
-Edit_Icon = '(//i[@class="edit icon"])[1]'
+Edit_Icon = '(//div[@data-test-id="i_bUJ6EIbHxCoU8Od0VcG"])[4]'
 Rename_Task_PopUp = "(//div[contains(text(),'Rename Task')])[1]"
-Rename_Task_Input_Text = '//input[@placeholder="This is input"]'
+Rename_Task_Input_Text = '(//input[@type="text"])[2]'
 Delete_Icon_Study_Setting = '//i[@class="trash alternate icon"]'
 Favourite_Icon_Studies = '(//i[@class="teal star outline icon"])[1]'
 Favourite_Studies_Section = "(//h3[contains(text(),'Favorite Studies')])[1]"

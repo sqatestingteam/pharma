@@ -15,6 +15,6 @@ Verify studies module is visible
     ${response}    Get Text    ${Studies_Text}
     Should Be Equal As Strings    ${response}    Studies
     Element Should Be Visible   ${Studies_Module}
-    click element  ${Studies_Module}
+    click element  ${Studies_Dropdown}
     page should contain element  ${Studies_Dropdown_Sub_Menu}
     sleep  3
