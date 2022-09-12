@@ -1,4 +1,4 @@
-# Python-Selenium-Page-Object-Model with Halo Link
+# Python-Selenium-Robot-Page-Object-Model with Halo Link
 ## Allure Robot Framework
 **Installation and Usage**
 <br>
