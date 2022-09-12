@@ -10,6 +10,5 @@ Verify that all plus icon button is clickable
     click element  ${My_Studies}
     click element  ${Click_On_Plus_Button_One}
     click element  ${Click_On_Plus_Button_Two}
-    click element  ${Click_On_Plus_Button_Three}
     click button  ${Close_Button}
     sleep  3

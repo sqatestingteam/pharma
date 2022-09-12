@@ -73,8 +73,8 @@ About_Halo_link = "//div[contains(text(),'About HALO Link')]"
 What_Is_New_Halo_link = '//div[@data-test-id="HXIiGvmCMb0I93n22cBVx"]'
 Halo_link_User_Guide = '//a[@download="HALOLink_UserGuide_v3.5.pdf"]'
 Studies_On_My_Studies = "(//span[@class='studyName'])[1]"
-Click_On_Plus_Button_One = "4016"
-Click_On_Plus_Button_Two = "3990"
+Click_On_Plus_Button_One = "3990"
+Click_On_Plus_Button_Two = "3967"
 Search_Field = "//input[@placeholder='Find Slides']"
 Search_Option_Dropdown = "(//div[@role='listbox'])[1]"
 Select_Slides = "//div[contains(text(),'Slides')]"
