@@ -7,6 +7,7 @@ Resource  ../../Pages/MyProfile/MyProfilePage_003.robot
 *** Test Cases ***
 Login
     open my browser
+    sleep  60
     click signIn
     my profile icon clickable or not
     check log out button is work or not

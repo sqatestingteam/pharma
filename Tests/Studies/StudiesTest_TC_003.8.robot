@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_003.8.robot
 
 Check Description input box is working
     open my browser
+    sleep  60
     click signIn
     Check Description input box is working
     close browser

@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_005.1.robot
 
 Check Study Slide Grid module
     open my browser
+    sleep  60
     click signIn
     Check Study Slide Grid module
     close browser

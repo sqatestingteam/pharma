@@ -7,6 +7,7 @@ Resource  ../../Pages/Help/HelpPage_001.robot
 
 Verify that display will show you all information about the HOLO system
     open my browser
+    sleep  60
     click signIn
     Verify that display will show you all information about the HOLO system
     close browser

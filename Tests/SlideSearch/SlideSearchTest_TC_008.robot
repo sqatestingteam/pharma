@@ -7,6 +7,7 @@ Resource  ../../Pages/SlideSearch/SlideSearchPage_008.robot
 
 Verify the search button will be clickable and the display will show you the search result
     open my browser
+    sleep  60
     click signIn
     Verify that the configure All option is working properly
     close browser

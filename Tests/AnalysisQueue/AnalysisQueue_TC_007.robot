@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_007.robot
 
 Verify that the Slide filter dropdown option working properly
     open my browser
+    sleep  60
     click signIn
     Verify that the Slide filter dropdown option working properly
     close browser

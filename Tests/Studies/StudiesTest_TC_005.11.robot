@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_005.11.robot
 
 Check Edit tab is working
     open my browser
+    sleep  60
     click signIn
     Check Edit tab is working
     close browser

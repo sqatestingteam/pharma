@@ -7,6 +7,7 @@ Resource  ../../Pages/MyStudies/MyStudies_004.robot
 
 Verify Filter option is working
     open my browser
+    sleep  60
     click signIn
     Verify Filter option is working
     close browser

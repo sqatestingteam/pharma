@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_003.2.robot
 
 Verify studies dropdown is working
     open my browser
+    sleep  60
     click signIn
     Verify studies dropdown is working
     close browser

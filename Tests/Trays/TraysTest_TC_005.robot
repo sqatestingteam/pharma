@@ -7,6 +7,7 @@ Resource  ../../Pages/Trays/TraysPage_005.robot
 
 Check Trays Sort option is working
     open my browser
+    sleep  60
     click signIn
     Check Trays Sort option is working
     close browser

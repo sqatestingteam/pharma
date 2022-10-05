@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_040.robot
 
 Verify that the Progress Filter dropdown option is working properly
     open my browser
+    sleep  60
     click signIn
     Verify that the Progress Filter dropdown option is working properly
     close browser

@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_012.robot
 
 Verify that the submitted Option Reset Filter is working properly
     open my browser
+    sleep  60
     click signIn
     Verify that the submitted Option Reset Filter is working properly
     close browser

@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_008.1.robot
 
 Check Study Setting module
     open my browser
+    sleep  60
     click signIn
     Check Study Setting module
     close browser

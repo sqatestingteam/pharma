@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_007.1.robot
 
 Verify Analysis job module
     open my browser
+    sleep  60
     click signIn
     Verify Analysis job module
     close browser

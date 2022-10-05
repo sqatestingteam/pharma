@@ -7,6 +7,7 @@ Resource  ../../Pages/Help/HelpPage_003.robot
 
 Verify that automatically user guide pdf file will be downloaded
     open my browser
+    sleep  60
     click signIn
     Verify that automatically user guide pdf file will be downloaded
     close browser

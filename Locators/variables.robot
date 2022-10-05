@@ -1,7 +1,7 @@
 *** Variables ***
 ${Browser}      chrome
 ${SiteUrl}      https://sandbox.jnjesm.com/
-${user}         ramin@rchsolutions.com
-${invalid_user}         ramin@rchsolutionnnns.com
-${password}     Swamibapa2022@
+${user}         ramin9@its.jnj.com
+${invalid_user}         ramin95@its.jnj.com
+${password}     Eagles2022@
 ${invalid_password}     Swamibapa2022@455

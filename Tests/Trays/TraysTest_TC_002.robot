@@ -7,6 +7,7 @@ Resource  ../../Pages/Trays/TraysPage_002.robot
 
 Check Trays module
     open my browser
+    sleep  60
     click signIn
     Check Trays module
     close browser

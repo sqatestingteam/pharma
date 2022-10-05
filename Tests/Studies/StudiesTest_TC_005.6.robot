@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_005.6.robot
 
 Check Analysis bar is clickable
     open my browser
+    sleep  60
     click signIn
     Check Analysis bar is clickable
     close browser

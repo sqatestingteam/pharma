@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_001.robot
 
 Verify that Showing an Analysis Queue popup from
     open my browser
+    sleep  60
     click signIn
     Verify that Showing an Analysis Queue popup from
     close browser

@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_007.4.robot
 
 Check Analyze job filter option is working
     open my browser
+    sleep  60
     click signIn
     Check Analyze job filter option is working
     close browser

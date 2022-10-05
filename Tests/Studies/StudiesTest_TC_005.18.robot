@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_005.18.robot
 
 Verify sub studies header all icon
     open my browser
+    sleep  60
     click signIn
     Verify sub studies header all icon
     close browser

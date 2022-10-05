@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_005.4.robot
 
 Check Fields edit option
     open my browser
+    sleep  60
     click signIn
     Check Fields edit option
     close browser

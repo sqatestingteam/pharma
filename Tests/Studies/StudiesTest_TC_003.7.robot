@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_003.7.robot
 
 Verify studies hyper link is clickable
     open my browser
+    sleep  60
     click signIn
     Verify studies hyper link is clickable
     close browser

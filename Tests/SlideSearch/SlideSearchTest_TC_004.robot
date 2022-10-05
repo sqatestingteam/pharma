@@ -7,6 +7,7 @@ Resource  ../../Pages/SlideSearch/SlideSearchPage_004.robot
 
 Verify Filter option is working
     open my browser
+    sleep  60
     click signIn
     Verify that the Serch option radio button is working properly
     close browser

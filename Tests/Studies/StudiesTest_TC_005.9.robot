@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_005.9.robot
 
 Check Slide List bar is clickable
     open my browser
+    sleep  60
     click signIn
     Check Slide List bar is clickable
     close browser

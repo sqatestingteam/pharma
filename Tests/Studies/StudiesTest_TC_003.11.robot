@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_003.11.robot
 
 Check Invite collaborators works correctly
     open my browser
+    sleep  60
     click signIn
     Check Invite collaborators works correctly
     close browser

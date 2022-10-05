@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_005.5.robot
 
 Check Annotation layers bar is clickable
     open my browser
+    sleep  60
     click signIn
     Check Annotation layers bar is clickable
     close browser

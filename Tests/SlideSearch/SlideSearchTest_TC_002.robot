@@ -7,6 +7,7 @@ Resource  ../../Pages/SlideSearch/SlideSharePage_002.robot
 
 Verify Filter option is working
     open my browser
+    sleep  60
     click signIn
     Verify that Studies Search Resuelt is showing on display
     close browser

@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_005.robot
 
 Verify Filter option is working
     open my browser
+    sleep  60
     click signIn
     Verify that all slider up/down/left-right working properly
     close browser

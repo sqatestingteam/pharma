@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_034.robot
 
 Verify that the Submitted Filter Options all field is working
     open my browser
+    sleep  60
     click signIn
     Verify that the Submitted Filter Options all field is working
     close browser

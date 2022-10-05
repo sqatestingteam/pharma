@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_007.6.robot
 
 Check Every coloumn name is visible
     open my browser
+    sleep  60
     click signIn
     Check Every coloumn name is visible
     close browser

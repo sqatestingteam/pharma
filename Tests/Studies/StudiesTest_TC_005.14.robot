@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_005.14.robot
 
 Check Copy to tray tab is working
     open my browser
+    sleep  60
     click signIn
     Check Copy to tray tab is working
     close browser

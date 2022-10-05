@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_033.robot
 
 Verify that the Submitted Filter Option dropdown is working properly
     open my browser
+    sleep  60
     click signIn
     Verify that the Submitted Filter Option dropdown is working properly
     close browser

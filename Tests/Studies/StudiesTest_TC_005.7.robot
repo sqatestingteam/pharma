@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_005.7.robot
 
 Check Comments bar is clickable
     open my browser
+    sleep  60
     click signIn
     Check Comments bar is clickable
     close browser

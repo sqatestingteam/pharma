@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_011.robot
 
 Verify that the Submitted option Date option and Apply Filter button field is working properly
     open my browser
+    sleep  60
     click signIn
     Verify that the Submitted option Date option and Apply Filter button field is working properly
     close browser

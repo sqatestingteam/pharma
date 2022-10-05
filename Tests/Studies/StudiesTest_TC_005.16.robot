@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_005.16.robot
 
 Check Remove tab is working
     open my browser
+    sleep  60
     click signIn
     Check Remove tab is working
     close browser

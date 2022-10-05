@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_026.robot
 
 Verify that All of the Sort up/down options working properly
     open my browser
+    sleep  60
     click signIn
     Verify that All of the Sort up/down options working properly
     close browser

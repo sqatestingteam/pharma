@@ -7,6 +7,7 @@ Resource  ../../Pages/SlideSearch/SlideSearchPage_009.robot
 
 Verify that Studies search results showing on the display
     open my browser
+    sleep  60
     click signIn
     Verify that Studies search results showing on the display
     close browser

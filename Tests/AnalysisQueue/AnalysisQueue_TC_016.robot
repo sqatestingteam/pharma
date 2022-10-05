@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_016.robot
 
 Verify that the Completed option dropdown option is working properly
     open my browser
+    sleep  60
     click signIn
     Verify that the Completed option dropdown option is working properly
     close browser

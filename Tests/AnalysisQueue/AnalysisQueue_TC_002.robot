@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_002.robot
 
 Visible Jobs and All Jobs field is clickable
     open my browser
+    sleep  60
     click signIn
     Visible Jobs and All Jobs field is clickable
     close browser

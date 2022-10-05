@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_005.3.robot
 
 Check Basic Information edit option
     open my browser
+    sleep  60
     click signIn
     Check Basic Information edit option
     close browser

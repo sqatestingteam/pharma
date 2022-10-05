@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_006.robot
 
 Verify that all options Sort up-down button is clickable
     open my browser
+    sleep  60
     click signIn
     Verify that all options Sort up-down button is clickable
     close browser

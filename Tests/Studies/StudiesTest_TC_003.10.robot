@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_003.10.robot
 
 Check Share Button is working
     open my browser
+    sleep  60
     click signIn
     Check Share Button is working
     close browser

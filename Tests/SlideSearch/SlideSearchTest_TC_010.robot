@@ -8,6 +8,7 @@ Resource  ../../Pages/SlideSearch/SlideSearchPage_010.robot
 
 Verify that Studies search results showing on the display
     open my browser
+    sleep  60
     click signIn
     Verify that Studies search results showing on the display
     Verify that Save or load a search option is working properly

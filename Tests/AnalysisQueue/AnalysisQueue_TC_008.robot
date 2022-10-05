@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_008.robot
 
 Verify that the Slide search and Apply Filter button field is working properly
     open my browser
+    sleep  60
     click signIn
     Verify that the Slide search and Apply Filter button field is working properly
     close browser

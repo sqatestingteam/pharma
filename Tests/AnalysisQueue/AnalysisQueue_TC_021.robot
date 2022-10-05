@@ -7,6 +7,7 @@ Resource  ../../Pages/AnalysisQueue/AnalysisQueuePage_021.robot
 
 Verify that the Status Filter option Reset Filter is working properly
     open my browser
+    sleep  60
     click signIn
     Verify that the Status Filter option Reset Filter is working properly
     close browser

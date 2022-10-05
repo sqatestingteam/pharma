@@ -7,6 +7,7 @@ Resource  ../../Pages/MyStudies/MyStudies_001.robot
 
 Verify that display will show you all information about the HOLO system
     open my browser
+    sleep  60
     click signIn
     verify that dropdown option all feild is selectable
     close browser

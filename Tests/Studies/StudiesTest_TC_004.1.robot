@@ -7,6 +7,7 @@ Resource  ../../Pages/Studies/StudiesPage_TC_004.1.robot
 
 Check Study metadata module
     open my browser
+    sleep  60
     click signIn
     Check Study metadata module
     close browser
